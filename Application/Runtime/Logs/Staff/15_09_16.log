@@ -1,0 +1,40 @@
+[ 2015-09-16T15:55:33+08:00 ] 117.24.26.40 /index.php?s=/Auth/addRole.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+
+[ 2015-09-16T15:58:07+08:00 ] 117.24.26.40 /index.php?s=/Auth/addRole.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `m_auth_group` WHERE `title` = '超级管理员' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-09-16T17:33:03+08:00 ] 117.24.26.40 /index.php?s=/Auth/addNode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+
+[ 2015-09-16T17:34:00+08:00 ] 117.24.26.40 /index.php?s=/Auth/addNode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+
+[ 2015-09-16T17:35:32+08:00 ] 117.24.26.40 /index.php?s=/Auth/addNode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `m_auth_rule` [ RunTime:0.0008s ]
+SQL: INSERT INTO `m_auth_rule` (`name`,`title`,`status`,`condition`,`type`,`mid`) VALUES ('dsfds','dsfsdfsdfsdfds','0','dsfsdfsdfds','1','9') [ RunTime:0.0003s ]
+
+[ 2015-09-16T17:45:10+08:00 ] 117.24.26.40 /index.php?s=/Auth/toGroup/gid/1.html
+ERR: 模板不存在:./Application/Staff/View/Auth/toGroup.html
+
+[ 2015-09-16T17:45:10+08:00 ] 117.24.26.40 /index.php?s=/Auth/toGroup/gid/1.html
+ERR: 模板不存在:./Application/Staff/View/Auth/toGroup.html
+

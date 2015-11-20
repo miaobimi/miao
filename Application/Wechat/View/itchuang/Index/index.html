@@ -1,0 +1,203 @@
+<include file="Base:header" />
+<script type="text/javascript" src="__HUI__/js/jquery.SuperSlide.2.1.1.js"></script>
+	<div id="a-main">
+		<span class="main-top">
+			<span class="main-top-left">
+				<h2>当前位置:<a href="">首页</a></h2>
+			</span>
+			<form action="{:U('Home/Index/search')}" method="POST">
+				<span class="main-top-right">
+					<input name="q" onblur="if(this.value=='') this.value='输入文本框...';" onfocus="this.value='';" type="text" value="输入文本框..." />
+					<select name="type" id="">
+						<option value="0">找项目</option>
+						<option value="1">找团队</option>
+						<option value="2">找人才</option>
+					</select>
+					<button class="searchBtn" type="submit">搜索</button>
+				</span>
+			</form>
+		</span>
+		<div class="main-left">
+			<div class="slide-img">
+			<style type="text/css">
+
+				/* 本例子css */
+				.slideBox{ width:100%; height:300px; overflow:hidden; position:relative; border:1px solid #ddd;  }
+				.slideBox .hd{ height:15px; overflow:hidden; position:absolute; right:5px; bottom:5px; z-index:1; }
+				.slideBox .hd ul{ overflow:hidden; zoom:1; float:left;  }
+				.slideBox .hd ul li{ float:left; margin-right:2px;  width:15px; height:15px; line-height:14px;list-style: none;text-align:center; background:#fff; cursor:pointer; }
+				.slideBox .hd ul li.on{ background:#FF9900; color:#fff; }
+				.slideBox .bd{ position:relative; height:100%; z-index:0;   }
+				.slideBox .bd li{ zoom:1; vertical-align:middle; }
+				.slideBox .bd img{ width:700px; height:300px; display:block;  }
+
+				/* 下面是前/后按钮代码，如果不需要删除即可 */
+				.slideBox .prev,
+				.slideBox .next{ position:absolute; left:3%; top:50%; margin-top:-25px; display:block; width:32px; height:40px; background:url(__IMG__/slider-arrow.png) -110px 5px no-repeat; filter:alpha(opacity=50);opacity:0.5;   }
+				.slideBox .next{ left:auto; right:3%; background-position:8px 5px; }
+				.slideBox .prev:hover,
+				.slideBox .next:hover{ filter:alpha(opacity=100);opacity:1;  }
+				.slideBox .prevStop{ display:none;  }
+				.slideBox .nextStop{ display:none;  }
+
+			</style>
+			<!-- slide start -->
+				<div class="slideBox" id="slideBox">
+					<div class="hd">
+						<ul><li class="on">1</li><li class="">2</li><li class="">3</li></ul>
+					</div>
+					<div class="bd">
+						<ul>
+							<li style="display: list-item; opacity: 0.369564;"><a target="_blank" ><img src="__IMG__/pic1.jpg"></a></li>
+							<li style="display: none;"><a target="_blank" ><img src="__IMG__/pic2.jpg"></a></li>
+							<li style="display: none;"><a target="_blank" ><img src="__IMG__/pic3.jpg"></a></li>
+						</ul>
+					</div>
+
+					<!-- 下面是前/后按钮代码，如果不需要删除即可 -->
+					<a href="javascript:void(0)" class="prev"></a>
+					<a href="javascript:void(0)" class="next"></a>
+
+				</div>
+			<!-- slide end -->
+			</div>
+			<div class="search-project">
+				<span class="project-top">
+					<h2>找项目</h2>
+					<ul>
+						<li><a href="">项目分类1</a></li>
+						<li><a href="">项目分类2</a></li>
+						<li><a href="">项目分类3</a></li>
+					</ul>
+					<b><a href="{:U('Home/Project/index')}">更多</a></b>
+				</span>
+				<div class="project-content">
+					<ul>
+						<volist name="project" id="vo" key="k">
+							<li <if condition="$k eq 4">class="last"</if>>
+								<a class="project-title" href="">{$vo.title}</a>
+								<!-- <span class="project-category">[项目分类]</span> -->
+								<span class="project-time"><span style="color:red;">有限期至:</span>{$vo.end_time|date="Y-m-d H:i:s",###}</span>
+								<span class="pre-people">发起人:<span class="project-name">{$vo.Member.0.nickname}</span></span>
+								<span class="join-num">参与人数({$vo.join_count})</span>
+								<span class="focus-people">关注人数({$vo.focus})</span>
+								<a href="{:U('Home/Project/detail',array('id'=>$vo['id']))}" class="detail">[查看详情]</a>
+							</li>
+						</volist>
+					</ul>
+				</div>
+			</div>
+			<div class="search-team">
+				<span class="project-top">
+					<h2>找团队</h2>
+					<ul>
+						<li><a href="">团队1</a></li>
+						<li><a href="">团队2</a></li>
+						<li><a href="">团队3</a></li>
+					</ul>
+					<b><a href="{:U('Home/Team/index')}">更多</a></b>
+				</span>
+				<div class="team-content">
+					<ul>
+						<volist name="team" id="vo">
+							<li>
+								<a class="team-img" href="{:U('Home/team/teamDetail',array('tid'=>$vo['id']))}">
+									<img width="120" height="120" src="{$vo.logo}" alt="" />
+								</a>
+								<a class="title" href="{:U('Home/team/teamDetail',array('tid'=>$vo['id']))}">{$vo.name}</a>
+								<span class="team-detail">
+									{$vo.desc|msubstr=0,50}
+								</span>
+								<div class="team-category">所属类别：</div>
+								<a class="category-name" href="">类别名称</a>
+								<div class="member-count"><span style="font-weight:700;">现有成员：</span>80人</div>
+								<span class="ranking">排名：555</span>
+							</li>
+						</volist>
+					</ul>
+				</div>
+			</div>
+			<div class="search-people">
+				<span class="project-top">
+					<h2>找人才</h2>
+					<ul>
+						<li><a href="">特长1</a></li>
+						<li><a href="">特长2</a></li>
+						<li><a href="">特长3</a></li>
+					</ul>
+					<b><a href="{:U('Home/People/index')}">更多</a></b>
+				</span>
+				<div class="people-content">
+					<table>
+						<thead>
+							<th width="20%">职位特长</th>
+							<th width="20%">用户名</th>
+							<th width="20%">所在院校</th>
+							<th width="25%">学习经验</th>
+							<th width="40%">发布时间</th>
+						</thead>
+						<tbody>
+							<volist name="people" id="vo" >
+								<tr>
+									<td>{$vo.resume_position}</td>
+									<td>{$vo.nickname}</td>
+									<td>{$vo.resume_position}</td>
+									<td>{$vo.experience}年</td>
+									<td>{$vo.reg_time|date="Y-m-d H:i:s",###}</td>
+								</tr>
+							</volist>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="main-right">
+			<include file="Base:notice" />
+			<include file="Base:project" />
+			<include file="Base:team" />
+			<include file="Base:people" />
+			
+		</div>
+	</div>
+	<div id="a-bottom">
+		<!-- <ul id="bottom-ul">
+			<li class="b-ul-li">
+				<ul class="b-ul">
+					<li><a href="">投诉建议</a></li>
+					<li><a href="">投诉建议</a></li>
+					<li><a href="">投诉建议</a></li>
+				</ul>
+			</li>
+			<li class="b-ul-li">
+				<ul class="b-ul">
+					<li><a href="">投诉建议</a></li>
+					<li><a href="">投诉建议</a></li>
+					<li><a href="">投诉建议</a></li>
+				</ul>
+			</li>
+			<li class="b-ul-li">
+				<ul class="b-ul">
+					<li><a href="">投诉建议</a></li>
+					<li><a href="">投诉建议</a></li>
+					<li><a href="">投诉建议</a></li>
+				</ul>
+			</li>
+			<li class="b-ul-li">
+				<ul class="b-ul">
+					<li><a href="">投诉建议</a></li>
+					<li><a href="">投诉建议</a></li>
+					<li><a href="">投诉建议</a></li>
+				</ul>
+			</li>
+		</ul> -->
+	</div>
+</body>
+</html>
+<script>
+	$(function(){
+		var url = "{:U('Home/Index/index')}";
+		highlight_subnav(url);
+
+		jQuery(".slideBox").slide({mainCell:".bd ul",effect:"fold",autoPlay:true});
+	})
+</script>

@@ -1,0 +1,1194 @@
+[ 2015-05-09T10:14:05+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002850s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2015-05-09T10:14:05+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2015-05-09T10:22:25+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2015-05-09T10:22:26+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2015-05-09T10:23:00+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html&random=0.8791223096845636
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2015-05-09T10:23:00+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html&random=0.10465527663386409
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2015-05-09T10:23:01+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html&random=0.4518155274160087
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2015-05-09T10:23:02+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html&random=0.08746080247371246
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2015-05-09T10:23:02+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html&random=0.22983658776293914
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2015-05-09T10:23:07+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+NOTIC: [8] Use of undefined constant T_PLUGIN_MASTER - assumed 'T_PLUGIN_MASTER' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 61 行.
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 62 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 64 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 66 行.
+NOTIC: [8] Undefined index: phone_psword /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 67 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 68 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 68 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 69 行.
+
+[ 2015-05-09T10:36:43+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2015-05-09T10:36:43+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2015-05-09T10:36:56+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000934s ]
+
+[ 2015-05-09T10:36:56+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2015-05-09T10:36:58+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2015-05-09T10:36:58+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2015-05-09T10:37:26+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html&random=0.07275578098014024
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2015-05-09T10:37:27+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html&random=0.9732874331238335
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2015-05-09T10:37:38+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+
+[ 2015-05-09T10:39:06+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002091s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 67 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 69 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 74 行.
+
+[ 2015-05-09T10:41:05+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 67 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 69 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 74 行.
+NOTIC: [8] Undefined property: Com\Mt::$T_CACHEDIR /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 158 行.
+
+[ 2015-05-09T10:41:23+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 67 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 69 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 74 行.
+NOTIC: [8] Undefined property: Com\Mt::$T_CACHEDIR /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 158 行.
+
+[ 2015-05-09T10:41:55+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 67 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 69 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 74 行.
+NOTIC: [8] Undefined property: Com\Mt::$T_CACHEDIR /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 158 行.
+
+[ 2015-05-09T10:42:03+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001372s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 67 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 69 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 74 行.
+NOTIC: [8] Undefined property: Com\Mt::$T_CACHEDIR /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 158 行.
+
+[ 2015-05-09T10:42:15+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 67 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 69 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 74 行.
+NOTIC: [8] Undefined property: Com\Mt::$T_CACHEDIR /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 158 行.
+NOTIC: [8] Undefined property: Com\Mt::$T_CACHEDIR /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 160 行.
+
+[ 2015-05-09T10:42:57+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 69 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 76 行.
+
+[ 2015-05-09T10:44:14+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 69 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 76 行.
+
+[ 2015-05-09T10:47:08+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 69 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 76 行.
+
+[ 2015-05-09T10:47:20+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 69 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 76 行.
+
+[ 2015-05-09T10:47:41+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001800s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2015-05-09T10:47:41+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2015-05-09T10:47:48+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001339s ]
+
+[ 2015-05-09T10:47:49+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2015-05-09T10:48:17+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html&random=0.07161510016533035
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2015-05-09T10:48:17+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html&random=0.9404573772257757
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2015-05-09T10:48:24+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 69 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 76 行.
+
+[ 2015-05-09T10:49:11+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 69 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 76 行.
+
+[ 2015-05-09T10:49:20+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001582s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 69 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 76 行.
+
+[ 2015-05-09T10:49:38+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 69 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 76 行.
+
+[ 2015-05-09T10:50:17+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 69 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 76 行.
+
+[ 2015-05-09T10:51:01+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 69 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 76 行.
+
+[ 2015-05-09T10:51:36+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 69 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 76 行.
+NOTIC: [8] Undefined property: Com\Mt::$fName /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 162 行.
+
+[ 2015-05-09T10:51:46+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 69 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 76 行.
+
+[ 2015-05-09T11:09:56+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 78 行.
+
+[ 2015-05-09T11:10:09+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 78 行.
+
+[ 2015-05-09T11:10:39+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 78 行.
+
+[ 2015-05-09T11:14:58+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 78 行.
+
+[ 2015-05-09T11:17:06+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2015-05-09T11:17:06+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2015-05-09T11:17:08+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2015-05-09T11:17:08+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2015-05-09T11:17:49+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 78 行.
+
+[ 2015-05-09T11:37:33+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2015-05-09T11:37:35+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2015-05-09T11:38:24+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2015-05-09T11:38:24+08:00 ] 127.0.0.1 /miao/index.php/Home/Index/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2015-05-09T11:39:16+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2015-05-09T11:39:58+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2015-05-09T11:39:58+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2015-05-09T11:40:45+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2015-05-09T11:40:45+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2015-05-09T11:40:47+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2015-05-09T11:40:47+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2015-05-09T11:41:16+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 172 行.
+
+[ 2015-05-09T11:51:08+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 78 行.
+
+[ 2015-05-09T11:53:05+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 78 行.
+
+[ 2015-05-09T11:53:13+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 78 行.
+
+[ 2015-05-09T11:55:04+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 78 行.
+
+[ 2015-05-09T13:52:54+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004806s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2015-05-09T13:52:55+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2015-05-09T13:53:50+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2015-05-09T13:53:51+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2015-05-09T13:53:58+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2015-05-09T13:53:58+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2015-05-09T13:56:17+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html&random=0.6391937102607499
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2015-05-09T13:56:18+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html&random=0.46035245846739004
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2015-05-09T13:56:19+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html&random=0.4697005441351835
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2015-05-09T13:56:19+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html&random=0.535204960148854
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2015-05-09T13:56:20+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html&random=0.16386817374213758
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2015-05-09T13:56:42+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 78 行.
+
+[ 2015-05-09T14:03:47+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2015-05-09T14:03:47+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2015-05-09T14:03:52+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2015-05-09T14:03:53+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2015-05-09T14:04:22+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 78 行.
+NOTIC: [8] Undefined index: sendreport /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 79 行.
+
+[ 2015-05-09T14:22:16+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 78 行.
+NOTIC: [8] Undefined index: sendreport /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 79 行.
+
+[ 2015-05-09T14:28:40+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 78 行.
+NOTIC: [8] Undefined index: sendreport /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 79 行.
+
+[ 2015-05-09T14:32:03+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 78 行.
+NOTIC: [8] Undefined index: sendreport /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 79 行.
+
+[ 2015-05-09T14:33:15+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 78 行.
+NOTIC: [8] Undefined index: sendreport /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 79 行.
+
+[ 2015-05-09T14:36:57+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 78 行.
+NOTIC: [8] Undefined index: sendreport /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 79 行.
+NOTIC: [2] fsockopen(): unable to connect to 115.28.137.28:80 (Connection refused) /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 169 行.
+NOTIC: [8] Undefined variable: cacheDir /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 210 行.
+NOTIC: [8] Undefined variable: cacheDir /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 213 行.
+
+[ 2015-05-09T14:38:00+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 78 行.
+NOTIC: [8] Undefined index: sendreport /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 79 行.
+NOTIC: [2] fsockopen(): unable to connect to 115.28.137.28:80 (Connection refused) /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 169 行.
+
+[ 2015-05-09T14:38:13+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 78 行.
+NOTIC: [8] Undefined index: sendreport /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 79 行.
+NOTIC: [2] fsockopen(): unable to connect to 115.28.137.28:80 (Connection refused) /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 169 行.
+
+[ 2015-05-09T14:38:28+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 78 行.
+NOTIC: [8] Undefined index: sendreport /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 79 行.
+NOTIC: [2] fsockopen(): unable to connect to 115.28.137.28:80 (Connection refused) /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 169 行.
+
+[ 2015-05-09T14:42:01+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 78 行.
+NOTIC: [8] Undefined index: sendreport /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 79 行.
+
+[ 2015-05-09T14:43:36+08:00 ] 127.0.0.1 /miao/index.php?s=/Home/Index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+NOTIC: [8] Use of undefined constant REMOTE_ADDR - assumed 'REMOTE_ADDR' /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 71 行.
+NOTIC: [8] Undefined index: inverstor /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 73 行.
+NOTIC: [8] Undefined index: comment /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 75 行.
+NOTIC: [8] Undefined index: status /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: id /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 77 行.
+NOTIC: [8] Undefined index: agent /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 78 行.
+NOTIC: [8] Undefined index: sendreport /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 79 行.
+NOTIC: [8] Undefined variable: cacheTime /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 183 行.
+NOTIC: [8] Undefined variable: cacheDir /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 210 行.
+NOTIC: [8] Undefined variable: cacheDir /Library/WebServer/Documents/miao/ThinkPHP/Library/Com/Mt.class.php 第 213 行.
+

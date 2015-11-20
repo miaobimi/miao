@@ -1,0 +1,330 @@
+[ 2015-10-26T16:09:18+08:00 ] 120.37.153.144 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0009s ]
+SQL: INSERT INTO `m_user` (`number`,`username`,`nickname`,`sex`,`email`,`mobile`,`qq`,`last_login_time`,`last_login_ip`,`status`) VALUES ('2015021','陈俊伟','Will','0','76782126@qq.com','13275056507','76782126','1445846958','120.37.153.144','1') [ RunTime:0.1747s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+SQL: INSERT INTO `m_userinfo` (`marriage`,`identity`,`birth`,`address`,`households`,`platform`,`stay`,`entry`,`quit`,`contract`,`startcon`,`endcon`,`starttrial`,`endtrial`,`uid`) VALUES ('1','3333333333333333|date=','631123200','泉州洛江','泉州','22222222','1','1442246400','1571932800','22222222','1442246400','1568476800','1442246400','1447603200','13') [ RunTime:0.0196s ]
+
+[ 2015-10-26T16:21:53+08:00 ] 120.37.153.144 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0009s ]
+SQL: INSERT INTO `m_user` (`number`,`username`,`nickname`,`sex`,`email`,`mobile`,`qq`,`last_login_time`,`last_login_ip`,`status`) VALUES ('2015021','陈俊伟','Will','0','76782126@qq.com','13275056507','76782126','1445847713','120.37.153.144','1') [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+SQL: INSERT INTO `m_userinfo` (`marriage`,`identity`,`birth`,`address`,`households`,`platform`,`stay`,`entry`,`quit`,`contract`,`startcon`,`endcon`,`starttrial`,`endtrial`,`uid`) VALUES ('1','3333333333333333|dat|date=','631123200','泉州洛江','泉州','22222222','1','1442246400','1571932800','22222222','1442246400','1568476800','1442246400','1447603200','14') [ RunTime:0.0110s ]
+
+[ 2015-10-26T16:24:08+08:00 ] 120.37.153.144 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0009s ]
+SQL: INSERT INTO `m_user` (`number`,`username`,`nickname`,`sex`,`email`,`mobile`,`qq`,`last_login_time`,`last_login_ip`,`status`) VALUES ('2015021','陈俊伟','Will','0','76782126@qq.com','13275056507','76782126','1445847848','120.37.153.144','1') [ RunTime:0.0346s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+SQL: INSERT INTO `m_userinfo` (`marriage`,`identity`,`birth`,`address`,`households`,`platform`,`stay`,`entry`,`quit`,`contract`,`startcon`,`endcon`,`starttrial`,`endtrial`,`uid`) VALUES ('1','3333333333333333|dat','631123200','泉州洛江','泉州','22222222','1','1442246400','1571932800','22222222','1442246400','1568476800','1442246400','1447603200','15') [ RunTime:0.0157s ]
+
+[ 2015-10-26T16:39:48+08:00 ] 120.37.153.144 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0009s ]
+SQL: INSERT INTO `m_user` (`number`,`username`,`nickname`,`sex`,`email`,`mobile`,`qq`,`last_login_time`,`last_login_ip`,`status`) VALUES ('2015021','陈俊伟','Will','0','76782126@qq.com','13275056507','76782126','1445848788','120.37.153.144','1') [ RunTime:0.0174s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+SQL: INSERT INTO `m_userinfo` (`marriage`,`identity`,`birth`,`address`,`households`,`platform`,`stay`,`entry`,`quit`,`contract`,`startcon`,`endcon`,`starttrial`,`endtrial`,`uid`) VALUES ('1','3333333333333333','631123200','泉州洛江','泉州','22222222','1','1442246400','1571932800','22222222','1442246400','1568476800','1442246400','1447603200','16') [ RunTime:0.0151s ]
+
+[ 2015-10-26T16:41:18+08:00 ] 120.37.153.144 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0014s ]
+SQL: INSERT INTO `m_user` (`number`,`username`,`nickname`,`sex`,`email`,`mobile`,`qq`,`last_login_time`,`last_login_ip`,`status`) VALUES ('0','fdsfd','fdfsd','0','11111111@qq.com','111111111111','11111111111111111','1445848878','120.37.153.144','1') [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+SQL: INSERT INTO `m_userinfo` (`marriage`,`identity`,`birth`,`address`,`households`,`platform`,`stay`,`entry`,`quit`,`contract`,`startcon`,`endcon`,`starttrial`,`endtrial`,`uid`) VALUES ('0','1111111111111111111111','0','11111111111111111','11111111111111','','0','0','0','111111111','0','0','0','0','17') [ RunTime:0.0142s ]
+
+[ 2015-10-26T16:53:49+08:00 ] 120.37.153.144 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+
+[ 2015-10-26T16:57:12+08:00 ] 120.37.153.144 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+
+[ 2015-10-26T16:58:37+08:00 ] 120.37.153.144 /index.php?s=/User/updateUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+
+[ 2015-10-26T16:59:23+08:00 ] 120.37.153.144 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+
+[ 2015-10-26T17:08:02+08:00 ] 120.37.153.144 /index.php?s=/User/updateUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 362 行.
+SQL: UPDATE `m_userinfo` SET `marriage`='1',`identity`='3333333333333333',`birth`='631123200',`address`='泉州洛江',`households`='泉州',`platform`='22222222',`stay`='1',`entry`='1442246400',`quit`='1571932800',`contract`='22222222',`startcon`='1442246400',`endcon`='1568476800',`starttrial`='1442246400',`endtrial`='1447603200' WHERE `uid` = 10 [ RunTime:0.1995s ]
+NOTIC: [8] Undefined index: mapping_name /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined index: id /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 266 行.
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0010s ]
+
+[ 2015-10-26T17:10:20+08:00 ] 120.37.153.144 /index.php?s=/User/updateUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+
+[ 2015-10-26T17:17:13+08:00 ] 120.37.153.144 /index.php?s=/User/updateUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 362 行.
+SQL: UPDATE `m_userinfo` SET `marriage`='1',`identity`='3333333333333333',`birth`='631123200',`address`='泉州洛江',`households`='泉州',`platform`='22222222',`stay`='1',`entry`='1442246400',`quit`='1571932800',`contract`='22222222',`startcon`='1442246400',`endcon`='1568476800',`starttrial`='1442246400',`endtrial`='1447603200' WHERE `uid` = 10 [ RunTime:0.0117s ]
+NOTIC: [8] Undefined index: mapping_name /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined index: id /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 266 行.
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0013s ]
+
+[ 2015-10-26T17:20:01+08:00 ] 120.37.153.144 /index.php?s=/User/updateUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 362 行.
+SQL: UPDATE `m_userinfo` SET `marriage`='1',`identity`='3333333333333333',`birth`='631123200',`address`='泉州洛江',`households`='泉州',`platform`='22222222',`stay`='1',`entry`='1442246400',`quit`='1571932800',`contract`='22222222',`startcon`='1442246400',`endcon`='1568476800',`starttrial`='1442246400',`endtrial`='1447603200' WHERE `uid` = 10 [ RunTime:0.0170s ]
+NOTIC: [8] Undefined index: mapping_name /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined index: id /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 266 行.
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: reult /alidata/www/miao/Application/Staff/Controller/UserController.class.php 第 132 行.
+
+[ 2015-10-26T17:21:07+08:00 ] 120.37.153.144 /index.php?s=/User/updateUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 362 行.
+SQL: UPDATE `m_userinfo` SET `marriage`='1',`identity`='3333333333333333',`birth`='631123200',`address`='泉州洛江',`households`='泉州',`platform`='22222222',`stay`='1',`entry`='1442246400',`quit`='1571932800',`contract`='22222222',`startcon`='1442246400',`endcon`='1568476800',`starttrial`='1442246400',`endtrial`='1447603200' WHERE `uid` = 10 [ RunTime:0.0262s ]
+NOTIC: [8] Undefined index: mapping_name /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined index: id /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 266 行.
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: reult /alidata/www/miao/Application/Staff/Controller/UserController.class.php 第 132 行.
+
+[ 2015-10-26T17:21:30+08:00 ] 120.37.153.144 /index.php?s=/User/updateUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 362 行.
+SQL: UPDATE `m_userinfo` SET `marriage`='1',`identity`='3333333333333333',`birth`='631123200',`address`='泉州洛江',`households`='泉州',`platform`='22222222',`stay`='1',`entry`='1442246400',`quit`='1571932800',`contract`='22222222',`startcon`='1442246400',`endcon`='1568476800',`starttrial`='1442246400',`endtrial`='1447603200' WHERE `uid` = 10 [ RunTime:0.0123s ]
+NOTIC: [8] Undefined index: mapping_name /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined index: id /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 266 行.
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: reult /alidata/www/miao/Application/Staff/Controller/UserController.class.php 第 132 行.
+
+[ 2015-10-26T17:26:22+08:00 ] 120.37.153.144 /index.php?s=/User/updateUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 362 行.
+SQL: UPDATE `m_userinfo` SET `marriage`='1',`identity`='3333333333333333',`birth`='631123200',`address`='泉州洛江',`households`='泉州',`platform`='22222222',`stay`='1',`entry`='1442246400',`quit`='1571932800',`contract`='22222222',`startcon`='1442246400',`endcon`='1568476800',`starttrial`='1442246400',`endtrial`='1447603200' WHERE `uid` = 10 [ RunTime:0.0205s ]
+NOTIC: [8] Undefined index: mapping_name /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined index: id /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 266 行.
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: reult /alidata/www/miao/Application/Staff/Controller/UserController.class.php 第 132 行.
+
+[ 2015-10-26T17:28:40+08:00 ] 120.37.153.144 /index.php?s=/User/updateUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 362 行.
+SQL: UPDATE `m_userinfo` SET `marriage`='1',`identity`='3333333333333333',`birth`='631123200',`address`='泉州洛江',`households`='泉州',`platform`='22222222',`stay`='1',`entry`='1442246400',`quit`='1571932800',`contract`='22222222',`startcon`='1442246400',`endcon`='1568476800',`starttrial`='1442246400',`endtrial`='1447603200' [ RunTime:0.0328s ]
+NOTIC: [8] Undefined index: mapping_name /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined index: id /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 266 行.
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: reult /alidata/www/miao/Application/Staff/Controller/UserController.class.php 第 132 行.
+
+[ 2015-10-26T17:28:56+08:00 ] 120.37.153.144 /index.php?s=/User/updateUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 362 行.
+SQL: UPDATE `m_userinfo` SET `marriage`='1',`identity`='3333333333333333',`birth`='631123200',`address`='泉州洛江',`households`='泉州',`platform`='22222222',`stay`='1',`entry`='1442246400',`quit`='1571932800',`contract`='22222222',`startcon`='1442246400',`endcon`='1568476800',`starttrial`='1442246400',`endtrial`='1447603200' [ RunTime:0.0177s ]
+NOTIC: [8] Undefined index: mapping_name /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined index: id /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 266 行.
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: reult /alidata/www/miao/Application/Staff/Controller/UserController.class.php 第 132 行.
+
+[ 2015-10-26T17:29:00+08:00 ] 120.37.153.144 /index.php?s=/User/updateUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 362 行.
+SQL: UPDATE `m_userinfo` SET `marriage`='1',`identity`='3333333333333333',`birth`='631123200',`address`='泉州洛江',`households`='泉州',`platform`='22222222',`stay`='1',`entry`='1442246400',`quit`='1571932800',`contract`='22222222',`startcon`='1442246400',`endcon`='1568476800',`starttrial`='1442246400',`endtrial`='1447603200' [ RunTime:0.0702s ]
+NOTIC: [8] Undefined index: mapping_name /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined index: id /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 266 行.
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: reult /alidata/www/miao/Application/Staff/Controller/UserController.class.php 第 132 行.
+
+[ 2015-10-26T17:29:27+08:00 ] 120.37.153.144 /index.php?s=/User/updateUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 362 行.
+SQL: UPDATE `m_userinfo` SET `marriage`='1',`identity`='3333333333333333',`birth`='631123200',`address`='泉州洛江',`households`='泉州',`platform`='22222222',`stay`='1',`entry`='1442246400',`quit`='1571932800',`contract`='22222222',`startcon`='1442246400',`endcon`='1568476800',`starttrial`='1442246400',`endtrial`='1447603200' [ RunTime:0.0167s ]
+NOTIC: [8] Undefined index: mapping_name /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined index: id /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 266 行.
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0009s ]
+
+[ 2015-10-26T17:30:27+08:00 ] 120.37.153.144 /index.php?s=/User/updateUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 362 行.
+SQL: UPDATE `m_userinfo` SET `marriage`='1',`identity`='3333333333333333',`birth`='631123200',`address`='泉州洛江',`households`='泉州',`platform`='22222222',`stay`='1',`entry`='1442246400',`quit`='1571932800',`contract`='22222222',`startcon`='1442246400',`endcon`='1568476800',`starttrial`='1442246400',`endtrial`='1447603200' [ RunTime:0.0204s ]
+NOTIC: [8] Undefined index: mapping_name /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined index: id /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 266 行.
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0010s ]
+
+[ 2015-10-26T17:31:35+08:00 ] 120.37.153.144 /index.php?s=/User/updateUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 362 行.
+SQL: UPDATE `m_userinfo` SET `marriage`='1',`identity`='3333333333333333',`birth`='631123200',`address`='泉州洛江',`households`='泉州',`platform`='22222222',`stay`='1',`entry`='1442246400',`quit`='1571932800',`contract`='22222222',`startcon`='1442246400',`endcon`='1568476800',`starttrial`='1442246400',`endtrial`='1447603200' WHERE `uid` = 10 [ RunTime:0.0258s ]
+NOTIC: [8] Undefined index: mapping_name /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined index: id /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 266 行.
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0009s ]
+
+[ 2015-10-26T17:33:24+08:00 ] 120.37.153.144 /index.php?s=/User/updateUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 362 行.
+SQL: UPDATE `m_userinfo` SET `marriage`='1',`identity`='3333333333333333',`birth`='631123200',`address`='泉州洛江',`households`='泉州',`platform`='22222222',`stay`='1',`entry`='1442246400',`quit`='1571932800',`contract`='22222222',`startcon`='1442246400',`endcon`='1568476800',`starttrial`='1442246400',`endtrial`='1447603200' WHERE `uid` = 10 [ RunTime:0.0185s ]
+NOTIC: [8] Undefined index: mapping_name /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined index: id /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 266 行.
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0008s ]
+
+[ 2015-10-26T17:34:32+08:00 ] 120.37.153.144 /index.php?s=/User/updateUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 362 行.
+SQL: UPDATE `m_userinfo` SET `marriage`='1',`identity`='3333333333333333',`birth`='631123200',`address`='泉州洛江',`households`='泉州',`platform`='22222222',`stay`='1',`entry`='1442246400',`quit`='1571932800',`contract`='22222222',`startcon`='1442246400',`endcon`='1568476800',`starttrial`='1442246400',`endtrial`='1447603200' WHERE `uid` = 10 [ RunTime:0.0343s ]
+NOTIC: [8] Undefined index: mapping_name /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined index: id /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 266 行.
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0009s ]
+
+[ 2015-10-26T17:36:13+08:00 ] 120.37.153.144 /index.php?s=/User/updateUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 362 行.
+SQL: UPDATE `m_userinfo` SET `marriage`='1',`identity`='3333333333333333',`birth`='631123200',`address`='泉州洛江',`households`='泉州',`platform`='22222222',`stay`='1',`entry`='1442246400',`quit`='1571932800',`contract`='22222222',`startcon`='1442246400',`endcon`='1568476800',`starttrial`='1442246400',`endtrial`='1447603200' WHERE `uid` = 10 [ RunTime:0.0152s ]
+NOTIC: [8] Undefined index: mapping_name /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined index: id /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 266 行.
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0012s ]
+
+[ 2015-10-26T17:37:51+08:00 ] 120.37.153.144 /index.php?s=/User/updateUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 362 行.
+SQL: UPDATE `m_userinfo` SET `marriage`='1',`identity`='3333333333333333',`birth`='631123200',`address`='泉州洛江',`households`='泉州',`platform`='22222222',`stay`='1',`entry`='1442246400',`quit`='1571932800',`contract`='22222222',`startcon`='1442246400',`endcon`='1568476800',`starttrial`='1442246400',`endtrial`='1447603200' WHERE `uid` = 10 [ RunTime:0.0258s ]
+NOTIC: [8] Undefined index: mapping_name /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined index: id /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 266 行.
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0009s ]
+
+[ 2015-10-26T17:37:55+08:00 ] 120.37.153.144 /index.php?s=/User/updateUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 362 行.
+SQL: UPDATE `m_userinfo` SET `marriage`='1',`identity`='3333333333333333',`birth`='631123200',`address`='泉州洛江',`households`='泉州',`platform`='22222222',`stay`='1',`entry`='1442246400',`quit`='1571932800',`contract`='22222222',`startcon`='1442246400',`endcon`='1568476800',`starttrial`='1442246400',`endtrial`='1447603200' WHERE `uid` = 10 [ RunTime:0.0298s ]
+NOTIC: [8] Undefined index: mapping_name /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined index: id /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 266 行.
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0009s ]
+
+[ 2015-10-26T17:38:25+08:00 ] 120.37.153.144 /index.php?s=/User/updateUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 362 行.
+SQL: UPDATE `m_userinfo` SET `marriage`='1',`identity`='3333333333333333',`birth`='631123200',`address`='泉州洛江',`households`='泉州',`platform`='22222222',`stay`='1',`entry`='1442246400',`quit`='1571932800',`contract`='22222222',`startcon`='1442246400',`endcon`='1568476800',`starttrial`='1442246400',`endtrial`='1447603200' WHERE `uid` = 10 [ RunTime:0.0306s ]
+NOTIC: [8] Undefined index: mapping_name /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined index: id /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 266 行.
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0010s ]
+
+[ 2015-10-26T23:31:50+08:00 ] 175.43.29.116 /index.php?s=/User/index.html
+ERR: XML标签语法错误 : condition "$user['birth'] neq ''"
+
+[ 2015-10-26T23:55:53+08:00 ] 175.43.29.116 /index.php?s=/User/updateUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 362 行.
+SQL: UPDATE `m_userinfo` SET `marriage`='1',`identity`='3333333333333333',`platform`='22222222',`contract`='22222222' WHERE `uid` = 10 [ RunTime:0.1471s ]
+NOTIC: [8] Undefined index: mapping_name /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined index: id /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 266 行.
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0012s ]
+
+[ 2015-10-26T23:55:55+08:00 ] 175.43.29.116 /index.php?s=/User/updateUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 362 行.
+SQL: UPDATE `m_userinfo` SET `marriage`='1',`identity`='3333333333333333',`platform`='22222222',`contract`='22222222' WHERE `uid` = 10 [ RunTime:0.0343s ]
+NOTIC: [8] Undefined index: mapping_name /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+NOTIC: [8] Undefined index: id /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 266 行.
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0009s ]
+

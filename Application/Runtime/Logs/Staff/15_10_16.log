@@ -1,0 +1,521 @@
+[ 2015-10-16T10:03:26+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0171s ]
+SQL: INSERT INTO `m_user` (`username`,`password`,`sex`,`email`,`last_login_ip`,`status`) VALUES ('fdfds','','0','11@qq.com','120.33.62.14','1') [ RunTime:0.1108s ]
+
+[ 2015-10-16T11:34:36+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+
+[ 2015-10-16T11:35:20+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+
+[ 2015-10-16T11:36:51+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'miao.m_user_info' doesn't exist
+
+[ 2015-10-16T11:42:21+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'miao.m_user_info' doesn't exist
+
+[ 2015-10-16T11:45:33+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+
+[ 2015-10-16T11:47:42+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002459s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'miao.m_user_info' doesn't exist
+
+[ 2015-10-16T11:51:12+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'miao.m_user_info' doesn't exist
+
+[ 2015-10-16T11:52:33+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+
+[ 2015-10-16T11:53:01+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'miao.m_user_info' doesn't exist
+
+[ 2015-10-16T11:54:53+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'miao.m_userinfo' doesn't exist
+
+[ 2015-10-16T11:55:36+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'miao.m_userinfo' doesn't exist
+
+[ 2015-10-16T11:58:55+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'miao.m_userinfo' doesn't exist
+
+[ 2015-10-16T12:53:31+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'miao.m_userinfo' doesn't exist
+
+[ 2015-10-16T12:55:21+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'miao.m_userinfo' doesn't exist
+
+[ 2015-10-16T12:56:07+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'miao.m_userinfo' doesn't exist
+
+[ 2015-10-16T12:58:06+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+
+[ 2015-10-16T13:41:00+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'miao.m_userinfo' doesn't exist
+
+[ 2015-10-16T13:47:23+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'miao.m_userinfo' doesn't exist
+
+[ 2015-10-16T13:49:17+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'miao.m_userinfo' doesn't exist
+
+[ 2015-10-16T13:52:01+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+
+[ 2015-10-16T13:52:39+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'miao.m_userinfo' doesn't exist
+
+[ 2015-10-16T13:56:31+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'miao.m_user_info' doesn't exist
+
+[ 2015-10-16T14:02:19+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 792 行.
+SQL: INSERT INTO `m_userinfo` (`birth`,`entry`,`quit`,`startcon`,`endcon`) VALUES ('2015','2015','2015','2015','2015') [ RunTime:0.0117s ]
+
+[ 2015-10-16T14:04:50+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 792 行.
+SQL: INSERT INTO `m_userinfo` (`birth`,`entry`,`quit`,`startcon`,`endcon`) VALUES ('2015','0','0','2015','2015') [ RunTime:0.0148s ]
+
+[ 2015-10-16T14:09:12+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 792 行.
+SQL: INSERT INTO `m_userinfo` (`birth`,`entry`,`quit`,`startcon`,`endcon`) VALUES ('0','0','0','0','0') [ RunTime:0.0264s ]
+
+[ 2015-10-16T14:19:33+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 792 行.
+SQL: INSERT INTO `m_userinfo` (`birth`,`entry`,`quit`,`startcon`,`endcon`) VALUES ('0','0','0','0','0') [ RunTime:0.0500s ]
+
+[ 2015-10-16T14:26:41+08:00 ] 120.33.62.14 /index.php?s=/Attence/aa.html
+ERR: 非法操作:aa
+
+[ 2015-10-16T15:34:22+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 792 行.
+SQL: INSERT INTO `m_userinfo` (`birth`,`entry`,`quit`,`startcon`,`endcon`) VALUES ('2015','2015','2015','2015','2015') [ RunTime:0.0332s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0009s ]
+
+[ 2015-10-16T15:38:11+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 792 行.
+SQL: INSERT INTO `m_userinfo` (`birth`,`entry`,`quit`,`startcon`,`endcon`) VALUES ('0','0','0','0','0') [ RunTime:0.0185s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0010s ]
+
+[ 2015-10-16T15:40:40+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 792 行.
+SQL: INSERT INTO `m_userinfo` (`uid`,`birth`,`entry`,`quit`,`startcon`,`endcon`) VALUES ('14','0','0','0','0','0') [ RunTime:0.0468s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0013s ]
+
+[ 2015-10-16T15:42:20+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 792 行.
+SQL: INSERT INTO `m_userinfo` (`uid`,`birth`,`entry`,`quit`,`startcon`,`endcon`) VALUES ('14','0','0','0','0','0') [ RunTime:0.0355s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0009s ]
+
+[ 2015-10-16T15:57:28+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 792 行.
+SQL: INSERT INTO `m_userinfo` (`uid`,`birth`,`entry`,`quit`,`startcon`,`endcon`) VALUES ('14','0','0','0','0','0') [ RunTime:0.0315s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0010s ]
+
+[ 2015-10-16T16:00:03+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 792 行.
+SQL: INSERT INTO `m_userinfo` (`uid`,`birth`,`entry`,`quit`,`startcon`,`endcon`) VALUES ('14','0','0','0','0','0') [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0009s ]
+
+[ 2015-10-16T16:00:55+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'field list'
+
+[ 2015-10-16T16:06:01+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'field list'
+
+[ 2015-10-16T16:20:14+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+
+[ 2015-10-16T16:22:42+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+
+[ 2015-10-16T16:25:39+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'number' in 'field list'
+
+[ 2015-10-16T16:33:34+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+
+[ 2015-10-16T16:34:09+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0009s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'number' in 'field list'
+
+[ 2015-10-16T16:35:42+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'number' in 'field list'
+
+[ 2015-10-16T16:36:13+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'number' in 'field list'
+
+[ 2015-10-16T16:37:08+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'number' in 'field list'
+
+[ 2015-10-16T16:38:29+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0011s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'field list'
+
+[ 2015-10-16T16:44:44+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+
+[ 2015-10-16T16:44:56+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 792 行.
+SQL: INSERT INTO `m_userinfo` (`marriage`,`identity`,`birth`,`address`,`households`,`platform`,`stay`,`entry`,`quit`,`contract`,`startcon`,`endcon`,`starttrial`,`endtrial`) VALUES ('0','11111111111111111','2015','fafdfd','adfdsf','fdfd','0','2015','2015','111111','2015','2015','2015','2015') [ RunTime:0.0329s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0010s ]
+
+[ 2015-10-16T16:45:19+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 792 行.
+SQL: INSERT INTO `m_userinfo` (`marriage`,`identity`,`birth`,`address`,`households`,`platform`,`stay`,`entry`,`quit`,`contract`,`startcon`,`endcon`,`starttrial`,`endtrial`) VALUES ('0','fdsgfdgy4565476576','2015','dsfgsddsfds','fdsfdsfdsfdsf','','0','0','0','dsfdsfdsfds','0','0','0','0') [ RunTime:0.0169s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0008s ]
+
+[ 2015-10-16T16:47:32+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 792 行.
+SQL: INSERT INTO `m_userinfo` (`marriage`,`identity`,`birth`,`address`,`households`,`platform`,`stay`,`entry`,`quit`,`contract`,`startcon`,`endcon`,`starttrial`,`endtrial`) VALUES ('0','dsfdsfdsfds43543','2015','dsfdsfdsfds','dsfdsfdsfds','','0','0','0','sdfdsfsd','0','0','0','0') [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0007s ]
+
+[ 2015-10-16T16:49:27+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 792 行.
+SQL: INSERT INTO `m_userinfo` (`marriage`,`identity`,`birth`,`address`,`households`,`platform`,`stay`,`entry`,`quit`,`contract`,`startcon`,`endcon`,`starttrial`,`endtrial`) VALUES ('0','dsfdsfdsdsfdsfdsf','0','dsfdsfdsfds','sdfdsfds','','0','0','0','sdfdsfdsfds','0','0','0','0') [ RunTime:0.0129s ]
+
+[ 2015-10-16T16:50:19+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'number' in 'field list'
+
+[ 2015-10-16T16:53:38+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0011s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'number' in 'field list'
+
+[ 2015-10-16T16:53:53+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 792 行.
+SQL: INSERT INTO `m_userinfo` (`marriage`,`identity`,`birth`,`address`,`households`,`platform`,`stay`,`entry`,`quit`,`contract`,`startcon`,`endcon`,`starttrial`,`endtrial`) VALUES ('0','dsfdsfdsdsfdsfdsf','0','dsfdsfdsfds','sdfdsfds','','0','0','0','sdfdsfdsfds','0','0','0','0') [ RunTime:0.0465s ]
+NOTIC: [8] Undefined index: mapping_name /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0009s ]
+
+[ 2015-10-16T16:54:30+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0011s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'number' in 'field list'
+
+[ 2015-10-16T16:55:05+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+
+[ 2015-10-16T16:55:42+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'number' in 'field list'
+
+[ 2015-10-16T16:56:54+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 792 行.
+SQL: INSERT INTO `m_userinfo` (`marriage`,`identity`,`birth`,`address`,`households`,`platform`,`stay`,`entry`,`quit`,`contract`,`startcon`,`endcon`,`starttrial`,`endtrial`) VALUES ('0','dsfdsfdsdsfdsfdsf','0','dsfdsfdsfds','sdfdsfds','','0','0','0','sdfdsfdsfds','0','0','0','0') [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0010s ]
+
+[ 2015-10-16T16:57:32+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0012s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'number' in 'field list'
+
+[ 2015-10-16T16:57:55+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 792 行.
+SQL: INSERT INTO `m_userinfo` (`marriage`,`identity`,`birth`,`address`,`households`,`platform`,`stay`,`entry`,`quit`,`contract`,`startcon`,`endcon`,`starttrial`,`endtrial`) VALUES ('0','dsfdsfdsdsfdsfdsf','0','dsfdsfdsfds','sdfdsfds','','0','0','0','sdfdsfdsfds','0','0','0','0') [ RunTime:0.0146s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0009s ]
+
+[ 2015-10-16T16:58:57+08:00 ] 120.33.62.14 /index.php?s=/User/ss.html
+ERR: 非法操作:ss
+
+[ 2015-10-16T17:01:04+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 792 行.
+SQL: INSERT INTO `m_userinfo` (`marriage`,`identity`,`birth`,`address`,`households`,`platform`,`stay`,`entry`,`quit`,`contract`,`startcon`,`endcon`,`starttrial`,`endtrial`) VALUES ('0','dvgdfvfdgvdvgds','0','sdfdsfdsfds','fdsfdsfdsfdsf','','0','0','0','dsfdsfdsfds','0','0','0','0') [ RunTime:0.0199s ]
+NOTIC: [8] Undefined index: mapping_name /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+
+[ 2015-10-16T17:01:39+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /alidata/www/miao/ThinkPHP/Library/Think/Db/Driver.class.php 第 792 行.
+SQL: INSERT INTO `m_userinfo` (`marriage`,`identity`,`birth`,`address`,`households`,`platform`,`stay`,`entry`,`quit`,`contract`,`startcon`,`endcon`,`starttrial`,`endtrial`) VALUES ('0','dvgdfvfdgvdvgds','0','sdfdsfdsfds','fdsfdsfdsfdsf','','0','0','0','dsfdsfdsfds','0','0','0','0') [ RunTime:0.0202s ]
+NOTIC: [8] Undefined index: mapping_name /alidata/www/miao/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0010s ]
+
+[ 2015-10-16T17:04:52+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+
+[ 2015-10-16T17:05:10+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+
+[ 2015-10-16T17:05:26+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+
+[ 2015-10-16T17:05:37+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0014s ]
+SQL: INSERT INTO `m_user` (`number`,`username`,`nickname`,`password`,`sex`,`email`,`mobile`,`qq`,`last_login_time`,`last_login_ip`,`status`) VALUES ('436546','bbbbbb','cfgb','8ddcff3a80f4189ca1c9d4d902c3c909','0','t4365436@qq.com','436546546456','46543646','1444986337','120.33.62.14','1') [ RunTime:0.0185s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0012s ]
+SQL: INSERT INTO `m_userinfo` (`marriage`,`identity`,`birth`,`address`,`households`,`platform`,`stay`,`entry`,`quit`,`contract`,`startcon`,`endcon`,`starttrial`,`endtrial`) VALUES ('0','dvgdfvfdgvdvgds','0','sdfdsfdsfds','fdsfdsfdsfdsf','','0','0','0','dsfdsfdsfds','0','0','0','0') [ RunTime:0.0144s ]
+
+[ 2015-10-16T17:07:09+08:00 ] 120.33.62.14 /index.php?s=/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0010s ]
+SQL: INSERT INTO `m_user` (`number`,`username`,`nickname`,`password`,`sex`,`email`,`mobile`,`qq`,`last_login_time`,`last_login_ip`,`status`) VALUES ('0','gggg','4e654675467547','8ddcff3a80f4189ca1c9d4d902c3c909','0','65765765@qq.com','6576576576577','5757657657','1444986429','120.33.62.14','1') [ RunTime:0.0151s ]
+SQL: SHOW COLUMNS FROM `m_userinfo` [ RunTime:0.0010s ]
+SQL: INSERT INTO `m_userinfo` (`marriage`,`identity`,`birth`,`address`,`households`,`platform`,`stay`,`entry`,`quit`,`contract`,`startcon`,`endcon`,`starttrial`,`endtrial`,`uid`) VALUES ('0','sdfgdsgfdgfdgfdg','0','dfgfdsdsfds','dsfdsfdsdsf','','0','0','0','dsfdsfdsfds','0','0','0','0','15') [ RunTime:0.0162s ]
+

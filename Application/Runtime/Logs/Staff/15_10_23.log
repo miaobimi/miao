@@ -1,0 +1,16 @@
+[ 2015-10-23T14:27:13+08:00 ] 120.37.153.144 /index.php?s=/Off/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `m_off` [ RunTime:0.0008s ]
+SQL: INSERT INTO `m_off` (`uid`,`signTime`,`startTime`,`endTime`,`days`,`type`,`managersignal`,`directorsignal`,`reason`) VALUES ('10','1445616000','1445443200','1445529600','1','0','0','0','                                            ') [ RunTime:0.0310s ]
+
+[ 2015-10-23T16:09:52+08:00 ] 120.37.153.144 /index.php?s=/Off/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `m_off` [ RunTime:0.0009s ]
+SQL: INSERT INTO `m_off` (`uid`,`signTime`,`startTime`,`endTime`,`days`,`type`,`managersignal`,`directorsignal`,`reason`) VALUES ('10','1445616000','1445270400','1445529600','3','0','6','8','12fdfdfsd') [ RunTime:0.0488s ]
+

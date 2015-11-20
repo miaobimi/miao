@@ -1,0 +1,25 @@
+<extend name="Public/base"/>
+	<div class="admin-left">
+		<span class="admin-nav-top"><a href="">网站首页</a>|<a href="">后台首页</a></span>
+		<div class="admin-nav">
+			<block name="menu">
+				<ul>
+					<li class="active"><a href="{:U('Index/index')}">首页</a></li>
+					
+				</ul>
+			</block>
+		</div>
+	</div>
+	<block name="right">
+	<div class="admin-right">
+		这是首页
+	</div>
+	</block>
+	<block name="script">
+	<script type="text/javascript">
+		//导航高亮
+        highlight_subnav('{:U("Index/index")}');
+	</script>
+	</block>
+</body>
+</html>

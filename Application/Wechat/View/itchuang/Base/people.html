@@ -1,0 +1,17 @@
+<div class="recommend-people">
+	<span class="right-top">
+		<h2>推荐人才</h2>
+		<a class="more">更多</a>
+	</span>
+	<div class="recommend-people-content">
+		<ul>
+			<volist name="people" id="vo">
+				<li>
+					<h3>{$vo.resume_position}</h3>
+					<a class="people-name" href="">{$vo.nickname}</a>
+					<span class="experience">{$vo.experience}年</span>
+				</li>
+			</volist>
+		</ul>
+	</div>
+</div>

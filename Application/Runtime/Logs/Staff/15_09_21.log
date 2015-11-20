@@ -1,0 +1,238 @@
+[ 2015-09-21T11:38:28+08:00 ] 120.33.39.137 /index.php?s=/Admin/Auth/changeRoleStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+ERR: 无法加载控制器:Admin
+
+[ 2015-09-21T11:38:51+08:00 ] 120.33.39.137 /index.php?s=/Auth/changeRoleStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0009s ]
+SQL: UPDATE `m_auth_group` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0004s ]
+
+[ 2015-09-21T11:42:47+08:00 ] 120.33.39.137 /index.php?s=/Auth/changeRoleStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0007s ]
+SQL: UPDATE `m_auth_group` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2015-09-21T13:41:30+08:00 ] 120.33.39.137 /index.php?s=/Auth/changeRoleStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0008s ]
+SQL: UPDATE `m_auth_group` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2015-09-21T13:43:03+08:00 ] 120.33.39.137 /index.php?s=/Auth/changeRoleStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0008s ]
+SQL: UPDATE `m_auth_group` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2015-09-21T13:43:42+08:00 ] 120.33.39.137 /index.php?s=/Auth/changeRoleStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0007s ]
+SQL: UPDATE `m_auth_group` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2015-09-21T13:44:32+08:00 ] 120.33.39.137 /index.php?s=/Auth/changeRoleStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0007s ]
+SQL: UPDATE `m_auth_group` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2015-09-21T13:45:02+08:00 ] 120.33.39.137 /index.php?s=/Auth/changeRoleStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0008s ]
+SQL: UPDATE `m_auth_group` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2015-09-21T13:45:27+08:00 ] 120.33.39.137 /index.php?s=/Auth/changeRoleStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0007s ]
+SQL: UPDATE `m_auth_group` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2015-09-21T13:46:06+08:00 ] 120.33.39.137 /index.php?s=/Auth/changeRoleStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0007s ]
+SQL: UPDATE `m_auth_group` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2015-09-21T13:47:17+08:00 ] 120.33.39.137 /index.php?s=/Auth/changeRoleStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0007s ]
+SQL: UPDATE `m_auth_group` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2015-09-21T13:47:46+08:00 ] 120.33.39.137 /index.php?s=/Auth/changeRoleStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0008s ]
+SQL: UPDATE `m_auth_group` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2015-09-21T13:47:49+08:00 ] 120.33.39.137 /index.php?s=/Auth/changeRoleStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0007s ]
+SQL: UPDATE `m_auth_group` SET `status`='0' WHERE `id` = 2 [ RunTime:0.0003s ]
+
+[ 2015-09-21T13:47:51+08:00 ] 120.33.39.137 /index.php?s=/Auth/changeRoleStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0008s ]
+SQL: UPDATE `m_auth_group` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2015-09-21T13:47:53+08:00 ] 120.33.39.137 /index.php?s=/Auth/changeRoleStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0007s ]
+SQL: UPDATE `m_auth_group` SET `status`='1' WHERE `id` = 2 [ RunTime:0.0003s ]
+
+[ 2015-09-21T13:48:17+08:00 ] 120.33.39.137 /index.php?s=/Auth/changeRoleStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0008s ]
+SQL: UPDATE `m_auth_group` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2015-09-21T13:48:19+08:00 ] 120.33.39.137 /index.php?s=/Auth/changeRoleStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0008s ]
+SQL: UPDATE `m_auth_group` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2015-09-21T14:23:54+08:00 ] 120.33.39.137 /index.php?s=/Auth/editRole.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_auth_group` WHERE `title` = '超级管理员' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-09-21T14:33:08+08:00 ] 120.33.39.137 /index.php?s=/Auth/editRole.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2015-09-21T14:34:10+08:00 ] 120.33.39.137 /index.php?s=/Auth/editRole.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2015-09-21T14:34:44+08:00 ] 120.33.39.137 /index.php?s=/Auth/editRole.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+
+[ 2015-09-21T14:37:18+08:00 ] 120.33.39.137 /index.php?s=/Auth/editRole.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+
+[ 2015-09-21T14:37:54+08:00 ] 120.33.39.137 /index.php?s=/Auth/editRole.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_auth_group` WHERE `title` = '超级管理员' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-09-21T14:38:01+08:00 ] 120.33.39.137 /index.php?s=/Auth/editRole.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_auth_group` WHERE `title` = '超级管理员1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `m_auth_group` SET `title`='超级管理员1',`description`='超级管理员分组' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2015-09-21T14:38:17+08:00 ] 120.33.39.137 /index.php?s=/Auth/editRole.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_auth_group` WHERE `title` = '超级管理员' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `m_auth_group` SET `title`='超级管理员',`description`='超级管理员分组' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2015-09-21T14:38:27+08:00 ] 120.33.39.137 /index.php?s=/Auth/editRole.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_auth_group` WHERE `title` = '总监' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `m_auth_group` SET `title`='总监',`description`='超级管理员分组' WHERE `id` = 1 [ RunTime:0.0002s ]
+
+[ 2015-09-21T14:38:48+08:00 ] 120.33.39.137 /index.php?s=/Auth/editRole.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_auth_group` WHERE `title` = '行政部' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `m_auth_group` SET `title`='行政部',`description`='普通管理员分组' WHERE `id` = 2 [ RunTime:0.0003s ]
+
+[ 2015-09-21T14:39:13+08:00 ] 120.33.39.137 /index.php?s=/Auth/editRole.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_auth_group` WHERE `title` = '业务部' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `m_auth_group` SET `title`='业务部',`description`='普通管理员分组' WHERE `id` = 3 [ RunTime:0.0003s ]
+
+[ 2015-09-21T14:42:05+08:00 ] 120.33.39.137 /index.php?s=/Auth/toGroup/gid/1.html
+ERR: 模板不存在:./Application/Staff/View/Auth/toGroup.html
+
+[ 2015-09-21T14:42:05+08:00 ] 120.33.39.137 /index.php?s=/Auth/toGroup/gid/1.html
+ERR: 模板不存在:./Application/Staff/View/Auth/toGroup.html
+
+[ 2015-09-21T14:45:08+08:00 ] 120.33.39.137 /index.php?s=/Auth/toGroup/gid/1.html
+ERR: 模板不存在:./Application/Staff/View/Auth/toGroup.html
+
+[ 2015-09-21T14:45:08+08:00 ] 120.33.39.137 /index.php?s=/Auth/toGroup/gid/1.html
+ERR: 模板不存在:./Application/Staff/View/Auth/toGroup.html
+

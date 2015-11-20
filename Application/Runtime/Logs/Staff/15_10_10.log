@@ -1,0 +1,88 @@
+[ 2015-10-10T09:13:24+08:00 ] 117.24.24.45 /index.php?s=/Upcard/lists.html
+ERR: 模板不存在:./Application/Staff/View/Upcard/lists.html
+
+[ 2015-10-10T09:35:05+08:00 ] 117.24.24.45 /index.php?s=/Upcard/lists.html
+ERR: 模板不存在:./Application/Staff/View/Upcard/lists.html
+
+[ 2015-10-10T11:31:09+08:00 ] 117.24.24.45 /index.php?s=/Out/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `m_auth_group_access` [ RunTime:0.0007s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM m_auth_group_access a INNER JOIN m_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT `condition`,`name` FROM `m_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','13','8','9','14','10','11','12') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+
+[ 2015-10-10T11:33:13+08:00 ] 117.24.24.45 /index.php?s=/Auth/addNode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `m_auth_group_access` [ RunTime:0.0009s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM m_auth_group_access a INNER JOIN m_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `m_auth_rule` [ RunTime:0.0008s ]
+SQL: SELECT `condition`,`name` FROM `m_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','13','8','9','14','10','11','12') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_auth_rule` [ RunTime:0.0005s ]
+SQL: INSERT INTO `m_auth_rule` (`name`,`title`,`status`,`condition`,`type`,`mid`) VALUES ('Staff/Out/signUp','外出签单','1','','1','1') [ RunTime:0.0003s ]
+
+[ 2015-10-10T11:40:09+08:00 ] 117.24.24.45 /index.php?s=/Out/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+
+[ 2015-10-10T11:43:51+08:00 ] 117.24.24.45 /index.php?s=/Out/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+
+[ 2015-10-10T11:45:57+08:00 ] 117.24.24.45 /index.php?s=/Out/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+
+[ 2015-10-10T14:03:31+08:00 ] 117.24.24.45 /index.php?s=/Attence/index.html
+ERR: 无法加载控制器:Attence
+
+[ 2015-10-10T14:03:31+08:00 ] 117.24.24.45 /index.php?s=/Attence/index.html
+ERR: 无法加载控制器:Attence
+
+[ 2015-10-10T15:26:45+08:00 ] 117.24.24.45 /index.php?s=/Upcard/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `m_auth_group_access` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM m_auth_group_access a INNER JOIN m_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `m_auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT `condition`,`name` FROM `m_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','13','8','9','14','10','11','12') AND `type` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `m_upcard` [ RunTime:0.0005s ]
+SQL: INSERT INTO `m_upcard` (`uid`,`signTime`,`upcardTime`,`managersignal`,`directorsignal`,`colleagueText`,`reason`) VALUES ('4','1446739200','2','0','0','','dsfds') [ RunTime:0.1291s ]
+
+[ 2015-10-10T15:26:45+08:00 ] 117.24.24.45 /index.php?s=/Upcard/lists.html
+ERR: 模板不存在:./Application/Staff/View/Upcard/lists.html
+
+[ 2015-10-10T15:32:33+08:00 ] 117.24.24.45 /index.php?s=/Auth/addNode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `m_auth_group_access` [ RunTime:0.0007s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM m_auth_group_access a INNER JOIN m_auth_group g on a.group_id=g.id  WHERE ( a.uid='4' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT `condition`,`name` FROM `m_auth_rule` WHERE `id` IN ('1','2','3','4','5','6','7','13','8','9','14','10','11','12') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_auth_rule` [ RunTime:0.0005s ]
+SQL: INSERT INTO `m_auth_rule` (`name`,`title`,`status`,`condition`,`type`,`mid`) VALUES ('Staff/Auth/addRules','添加权限节点','1','','1','2') [ RunTime:0.0003s ]
+
+[ 2015-10-10T17:11:06+08:00 ] 117.24.24.45 /index.php?s=/Upcard/index.html
+ERR: 表达式错误:5
+
+[ 2015-10-10T17:14:25+08:00 ] 117.24.24.45 /index.php?s=/Upcard/index.html
+ERR: 表达式错误:5
+
+[ 2015-10-10T17:14:34+08:00 ] 117.24.24.45 /index.php?s=/Upcard/index.html
+ERR: 表达式错误:5
+

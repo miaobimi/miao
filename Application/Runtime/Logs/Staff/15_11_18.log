@@ -1,0 +1,67 @@
+[ 2015-11-18T11:40:17+08:00 ] 120.33.36.19 /index.php?s=/Out/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `m_outform` [ RunTime:0.0010s ]
+SQL: INSERT INTO `m_outform` (`uid`,`signDate`,`startDate`,`expectedTime`,`outReason`,`createTime`) VALUES ('10','1447862400','1447862400','3h','sfdsfdfsdf','1447818017') [ RunTime:0.0438s ]
+
+[ 2015-11-18T11:41:52+08:00 ] 120.33.36.19 /index.php?s=/Out/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+SQL: SHOW COLUMNS FROM `m_outform` [ RunTime:0.0010s ]
+SQL: INSERT INTO `m_outform` (`uid`,`signDate`,`startDate`,`expectedTime`,`outReason`,`createTime`) VALUES ('10','1448380800','1448553600','4h','发生大幅杀跌','1447818112') [ RunTime:0.0139s ]
+
+[ 2015-11-18T11:48:43+08:00 ] 120.33.36.19 /index.php?s=/Out/signDown.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `m_outform` [ RunTime:0.0009s ]
+SQL: UPDATE `m_outform` SET `endDate`='1448467200',`expectedReason`='tggdf',`managersignal`='0',`directorsignal`='0',`backTime`='1447818523',`status`='1' WHERE `id` = 19 [ RunTime:0.0241s ]
+
+[ 2015-11-18T11:53:30+08:00 ] 120.33.36.19 /index.php?s=/Out/signDown.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `m_outform` [ RunTime:0.0010s ]
+SQL: UPDATE `m_outform` SET `endDate`='1447948800',`expectedReason`='gfdfg',`managersignal`='0',`directorsignal`='0',`backTime`='1447818810',`status`='1' WHERE `id` = 18 [ RunTime:0.0123s ]
+
+[ 2015-11-18T11:55:40+08:00 ] 120.33.36.19 /index.php?s=/Out/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `m_outform` [ RunTime:0.0010s ]
+SQL: INSERT INTO `m_outform` (`uid`,`signDate`,`startDate`,`expectedTime`,`outReason`,`createTime`) VALUES ('10','1447862400','1447948800','8h','似懂非懂三分得手','1447818940') [ RunTime:0.0174s ]
+
+[ 2015-11-18T11:55:59+08:00 ] 120.33.36.19 /index.php?s=/Out/signDown.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `m_outform` [ RunTime:0.0010s ]
+SQL: UPDATE `m_outform` SET `endDate`='1447948800',`expectedReason`='dsdas',`managersignal`='5',`directorsignal`='7',`backTime`='1447818959',`status`='1' WHERE `id` = 20 [ RunTime:0.0133s ]
+
+[ 2015-11-18T13:45:14+08:00 ] 120.33.36.19 /index.php?s=/Out/lists.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'status' in field list is ambiguous
+
+[ 2015-11-18T14:38:21+08:00 ] 120.33.36.19 /index.php?s=/Off/managersign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+SQL: SHOW COLUMNS FROM `m_off` [ RunTime:0.0009s ]
+SQL: UPDATE `m_off` SET `mstatus`='1' WHERE `id` = 20 [ RunTime:0.0003s ]
+
+[ 2015-11-18T14:40:39+08:00 ] 120.33.36.19 /index.php?s=/Out/managersign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `m_outform` [ RunTime:0.0010s ]
+SQL: UPDATE `m_outform` SET `mstatus`='1' WHERE `id` = 20 [ RunTime:0.0144s ]
+

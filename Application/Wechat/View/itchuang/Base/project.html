@@ -1,0 +1,19 @@
+<div class="recommend-project">
+	<span class="right-top">
+		<h2>推荐项目</h2>
+		<a href="{:U('Home/Project/index')}" class="more">更多</a>
+	</span>
+	<div class="recommend-project-content">
+		<ul>
+			<volist name="projectRand" id="vo">
+				<li <if condition="$k eq 5">class="last"</if>>
+					<a href="{:U('Home/Project/detail',array('id'=>$vo['id']))}"><i>·</i>{$vo.title}</a>
+					<span class="recommend-time">
+						<strong>有效期至：</strong>
+						<i>{$vo.end_time|date="Y-m-d",###}</i>
+					</span>
+				</li>
+			</volist>
+		</ul>
+	</div>
+</div>

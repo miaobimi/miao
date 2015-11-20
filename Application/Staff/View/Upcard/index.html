@@ -1,0 +1,357 @@
+<include file="Base:header" />
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <include file="Base:slibar" />
+
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+            <div class="row border-bottom">
+                <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                    <div class="navbar-header">
+                        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="icon-reorder"></i> </a>
+                        <form role="search" class="navbar-form-custom" method="post" action="search_results.html">
+                            <div class="form-group">
+                                <input type="text" placeholder="请输入您需要查找的内容 …" class="form-control" name="top-search" id="top-search">
+                            </div>
+                        </form>
+                    </div>
+                    <ul class="nav navbar-top-links navbar-right">
+                        <li>
+                            <span class="m-r-sm text-muted welcome-message"><a href="index.html" title="返回首页"><i class="icon-home"></i></a>欢迎使用</span>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle count-info" data-toggle="dropdown" href="index.html#">
+                                <i class="icon-envelope"></i> <span class="label label-warning">16</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-messages">
+                                <li>
+                                    <div class="dropdown-messages-box">
+                                        <a href="profile.html" class="pull-left">
+                                            <img alt="image" class="img-circle" src="__IMG__/a7.jpg">
+                                        </a>
+                                        <div class="media-body">
+                                            <small class="pull-right">46小时前</small>
+                                            <strong>小四</strong> 项目已处理完结
+                                            <br>
+                                            <small class="text-muted">3天前 2014.11.8</small>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <div class="dropdown-messages-box">
+                                        <a href="profile.html" class="pull-left">
+                                            <img alt="image" class="img-circle" src="__IMG__/a4.jpg">
+                                        </a>
+                                        <div class="media-body ">
+                                            <small class="pull-right text-navy">25小时前</small>
+                                            <strong>国民岳父</strong> 这是一条测试信息
+                                            <br>
+                                            <small class="text-muted">昨天</small>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <div class="text-center link-block">
+                                        <a href="mailbox.html">
+                                            <i class="icon-envelope"></i> <strong> 查看所有消息</strong>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle count-info" data-toggle="dropdown" href="index.html#">
+                                <i class="icon-bell"></i> <span class="label label-primary">8</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-alerts">
+                                <li>
+                                    <a href="mailbox.html">
+                                        <div>
+                                            <i class="icon-envelope fa-fw"></i> 您有16条未读消息
+                                            <span class="pull-right text-muted small">4分钟前</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="profile.html">
+                                        <div>
+                                            <i class="icon-qq fa-fw"></i> 3条新回复
+                                            <span class="pull-right text-muted small">12分钟钱</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <div class="text-center link-block">
+                                        <a href="notifications.html">
+                                            <strong>查看所有 </strong>
+                                            <i class="icon-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="{:U('Public/login')}">
+                                <i class="icon-signout"></i> 退出
+                            </a>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+            <div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-lg-10">
+                    <h2>补卡单</h2>
+                    <ol class="breadcrumb">
+                        <li>
+                            <a href="index.html">主页</a>
+                        </li>
+                        <li>
+                            <a>表单</a>
+                        </li>
+                        <li>
+                            <strong>表单验证</strong>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-lg-2">
+
+                </div>
+            </div>
+            <div class="wrapper wrapper-content animated fadeInRight">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="ibox float-e-margins">
+                            <div class="ibox-title">
+                                <h5>补卡单</h5>
+                                <div class="ibox-tools">
+                                    <a class="collapse-link">
+                                        <i class="fa fa-chevron-up"></i>
+                                    </a>
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="form_basic.html#">
+                                        <i class="fa fa-wrench"></i>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-user">
+                                        <li><a href="form_basic.html#">选项1</a>
+                                        </li>
+                                        <li><a href="form_basic.html#">选项2</a>
+                                        </li>
+                                    </ul>
+                                    <a class="close-link">
+                                        <i class="fa fa-times"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ibox-content">
+                                <form class="form-horizontal m-t" id="nocardForm" name="sub_form">
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">日期：</label>
+                                        <div class="col-sm-3">
+                                            <input id="signDate" name="signDate" type="text" class="form-control layer-date" aria-required="true" aria-invalid="true" class="error" placeholder="签单日期" <if condition="I('id') neq ''">value="{$result['signdate']|date='Y/m/d H:i:s',###}"</if>>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">未打卡时间：</label>
+                                        <div class="col-sm-9">
+                                            <label class="checkbox-inline i-checks">
+                                                <input type="checkbox" value="上午上班" name="cardtime[]" >上午上班</label>
+                                            <label class="checkbox-inline i-checks">
+                                                <input type="checkbox" value="上午下班" name="cardtime[]">上午下班</label>
+                                            <label class="checkbox-inline i-checks">
+                                                <input type="checkbox" value="下午上班" name="cardtime[]">下午上班</label>
+                                            <label class="checkbox-inline i-checks">
+                                                <input type="checkbox" value="下午下班" name="cardtime[]">下午下班</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">未打卡原因：</label>
+                                        <div class="col-sm-5">
+                                            <textarea class="form-control" aria-required="true" required="" name="nocard">{$result['outreason']}</textarea>
+                                        </div>
+                                    </div>
+                                    <if condition="session('uid') neq 5">
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">提交部门经理签字：</label>
+                                        <div class="col-sm-9">  <volist name="data1" id="vo">
+                                            <label class="checkbox-inline radio i-checks"> 
+                                            <input type="radio" value="{$vo.uid}" name="manager"><i></i>{$vo.username}
+                                            </label>  </volist>                          
+                                        </div>
+                                    </div>
+                                    </if>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">提交行政总监签字：</label>
+                                        <div class="col-sm-9"> <volist name="data2" id="vo">
+                                            <label class="checkbox-inline radio i-checks">   
+                                            <input type="radio" value="{$vo.uid}" name="director"><i></i>{$vo.username}
+                                            </label></volist>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">同事证明：</label>
+                                        <div class="col-sm-9">
+                                            <select data-placeholder="选择同事" class="chosen-select" multiple style="width:350px;" tabindex="4" name="selectstaff">
+                                                <option value="">请选择同事</option>
+                                                <option value="110000" hassubinfo="true">同事1</option>
+                                                <option value="120000" hassubinfo="true">同事2</option>
+                                                <option value="130000" hassubinfo="true">同事3</option>
+                                                <option value="140000" hassubinfo="true">同事4</option>
+                                                <option value="150000" hassubinfo="true">同事5</option>     
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">说明：</label>
+                                        <div class="col-sm-9"> 
+                                            <p>1、早上忘记打卡须于两小时内填写未打卡证明交于人事部。</p>
+                                            <p>2、晚上忘记打卡应于第一时间先行通知部门负责人，次日补交未打开证明。</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <if condition="in_array($result['status'],array(0,''))">
+                                        <div class="form-group">
+                                            <div class="col-sm-8 col-sm-offset-3">
+                                                <button class="btn btn-primary" type="submit" id="btn2">提交</button>
+                                            </div>
+                                        </div>
+                                    </if>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="pull-right">
+                    By：<a href="http://www.zi-han.net" target="_blank">zihan's blog</a>
+                </div>
+                <div>
+                    <strong>Copyright</strong> H+ &copy; 2014
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    </div>
+    <!-- iCheck -->
+    <link href="__STATIC__/iCheck/skins/all.css" rel="stylesheet">
+    <script src="__STATIC__/iCheck/icheck.min.js"></script>
+    <!-- Custom and plugin javascript -->
+    <script src="__JS__/hplus.js"></script>
+    <script src="__STATIC__/pace/pace.min.js"></script>
+    
+    <script src="__STATIC__/layer1.9.3/layer.js"></script>
+    <!-- layerdate -->
+    <script src="__STATIC__/layer/laydate/laydate.js"></script>
+    <!-- chosen select -->
+    <link rel="stylesheet" type="text/css" href="__STATIC__/chosen/chosen.css">
+    <script type="text/javascript" src="__STATIC__/chosen/chosen.jquery.js"></script>
+    <script> 
+
+
+        $(document).ready(function () {
+            
+            $('.i-checks').iCheck({
+                checkboxClass: 'icheckbox_square-green',
+                radioClass: 'iradio_square-green',
+            });
+        }); 
+        var config={".chosen-select":{},".chosen-select-deselect":{allow_single_deselect:true},".chosen-select-no-single":{disable_search_threshold:10},".chosen-select-no-results":{no_results_text:"Oops, nothing found!"},".chosen-select-width":{width:"95%"}};
+        for(var selector in config)
+            {$(selector).chosen(config[selector])}  
+        //导航高亮
+        highlight_subnav('{:U("Upcard/index")}');
+
+        //以下为修改jQuery Validation插件兼容Bootstrap的方法，没有直接写在插件中是为了便于插件升级
+        $.validator.setDefaults({
+            highlight: function (element) {
+                $(element).closest('.form-group').removeClass('has-success').addClass('has-error');
+            },
+            success: function (element) {
+                element.closest('.form-group').removeClass('has-error').addClass('has-success');
+            },
+            errorElement: "span",
+            errorClass: "help-block m-b-none",
+            validClass: "help-block m-b-none"
+
+
+        });
+
+         //以下为官方示例
+        $().ready(function () {
+            // validate signup form on keyup and submit
+            $('#btn2').click(function(){
+                if(!$("input[type='checkbox']").is(':checked'))
+                {
+                    layer.alert('至少选择一个未打卡时间',{icon:5});
+                    return false;
+                }
+            })
+            $("#nocardForm").validate({ 
+                rules: {
+                    signDate: {
+                        required : true,
+                        date : true
+                    },
+                    selectstaff:{
+                        required:true
+                        // minlength:3
+                    }
+                },
+                messages: {
+                    signDate: {
+                        required : "请输入签单时间",
+                        date : "日期格式不对，请重填"
+                    }
+                },
+                submitHandler: function(form) {  //通过之后回调 
+                    var param = $("#nocardForm").serialize();
+                    $.ajax({ 
+                        url : "{:U('Upcard/signUp')}", 
+                        type : "POST", 
+                        dataType : "json", 
+                        data: param, 
+                        success : function(result) { 
+                            if(result.status){
+                                layer.alert(result.info,{icon:6})
+                                window.location.href="{:U('lists')}"
+                            }else{
+                                layer.alert(result.info,{icon:5})
+                            }
+                        } 
+                    }); 
+                } 
+            });
+            
+        });
+
+        // layerdata
+        laydate.skin('molv');
+
+         //日期范围限制
+        var signDate = {
+            elem: '#signDate',
+            format: 'YYYY/MM/DD hh:mm:ss',
+            min: laydate.now(),
+            max: '2099-06-16 23:59:59',
+            istime: true,
+            istoday: false,
+            choose: function (datas) {
+                start.max = datas; //结束日选好后，重置开始日的最大日期
+            }
+        };
+        laydate(signDate);
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+[ 2015-09-30T17:27:43+08:00 ] 117.24.164.187 /index.php?s=/Admin/User/deny.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0009s ]
+SQL: UPDATE `m_user` SET `status`='1' WHERE ( uid=1 ) [ RunTime:0.1356s ]
+
+[ 2015-09-30T17:27:46+08:00 ] 117.24.164.187 /index.php?s=/Admin/User/deny.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0008s ]
+SQL: UPDATE `m_user` SET `status`='0' WHERE ( uid=1 ) [ RunTime:0.0290s ]
+

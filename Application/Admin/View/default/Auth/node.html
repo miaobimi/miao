@@ -1,0 +1,97 @@
+<extend name="Public/base"/>
+	<div class="admin-left">
+		<span class="admin-nav-top"><a href="">网站首页</a>|<a href="">后台首页</a></span>
+		<div class="admin-nav">
+			<block name="menu">
+				<ul>
+					<li><a href="{:U('Auth/index')}">角色列表</a></li>
+					<li><a href="{:U('Auth/addRole')}">添加角色</a></li>
+					<li class="active"><a href="{:U('Auth/Node')}">节点列表</a></li>
+					<li><a href="{:U('Auth/addNode')}">添加节点</a></li>
+					<li><a href="{:U('Auth/addModules')}">添加模块</a></li>
+				</ul>
+			</block>
+	</div>
+	<block name="right">
+	<div class="admin-right">
+		<nav class="navbar navbar-default" role="navigation">
+		  	<div class="col-sm-2" style="display:block;margin-top:8px;">
+		      	<select class="form-control" name="modules_id">
+				  <volist name="group" id="vo">
+				  	<option <if condition="$vo['id'] eq I('gid')">selected="selected"<else />value="{:U('Auth/node',array('gid'=>$vo['id']))}" </if>>{$vo.title}</option>
+				  </volist>
+				</select>
+		    </div>
+		  <div class="container-fluid">
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">Link</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+		          <ul class="dropdown-menu" role="menu">
+		            <li><a href="#">Action</a></li>
+		            <li><a href="#">Another action</a></li>
+		            <li><a href="#">Something else here</a></li>
+		            <li class="divider"></li>
+		            <li><a href="#">Separated link</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+
+		    </div>
+		  </div>
+		</nav>
+		<form name="group" action="{:U('addRules',array('gid'=>I('gid')))}" method="POST">
+			<div>
+				<volist name="modules" id="vo">
+					<dl class="checkmod">
+						<dt class="hd">
+							<label class="checkbox"><input class="selectedAll" type="checkbox" value="{$vo.id}">{$vo.modules_name}</label>
+						</dt>
+						<dd class="bd">
+							<ul class="rule_check">
+								<volist name="vo['children']" id="node">
+			                        <li>
+			                        	<label class="checkbox" >
+				                           <input <php>if(in_array($node['id'], $access)){ echo "checked='true'";}</php> type="checkbox" name="rules[]"
+				                           value="{$node.id}"/>{$node.title}
+				                        </label>
+			                        </li>
+		                        </volist>
+
+		          			</ul>
+		                </dd>       
+					</dl>
+				</volist>
+			</div>
+			<div class="form-group">
+			    <div class="col-sm-offset-1 col-sm-10">
+			      <button type="submit" class="btn btn-info">确定</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			      <a class="btn btn-info" href="{:U(index)}">返回</a>
+			    </div>
+			</div>
+		</form>
+	</div>
+	</block>
+	<block name="script">
+	<script type="text/javascript">
+		$(function(){
+			$('.selectedAll').on('ifChecked', function(event){
+				$(this).parents('dl').find('input').iCheck('check');
+			});
+			$('.selectedAll').on('ifUnchecked', function(event){
+				$(this).parents('dl').find('input').iCheck('uncheck');
+			});
+
+			//select框change事件
+			$('select[name=modules_id]').change(function(){
+				var url = $(this).children('option:selected').val();
+				window.location.href=url;
+			})
+		})
+		//导航高亮
+        highlight_subnav('{:U("Auth/index")}');
+	</script>
+	</block>
+</body>
+</html>

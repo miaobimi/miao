@@ -1,0 +1,173 @@
+[ 2015-10-19T11:51:16+08:00 ] 120.33.62.14 /index.php?s=/Upcard/directorsign.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `m_upcard` [ RunTime:0.0009s ]
+SQL: UPDATE `m_upcard` SET `dstatus`='1' WHERE `id` = 75 [ RunTime:0.1657s ]
+
+[ 2015-10-19T14:05:44+08:00 ] 120.33.62.14 /index.php?s=/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0009s ]
+SQL: DELETE FROM `m_user` WHERE `uid` IN ('') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `m_auth_group_access` [ RunTime:0.0004s ]
+SQL: DELETE FROM `m_auth_group_access` WHERE `uid` IN ('') [ RunTime:0.0002s ]
+
+[ 2015-10-19T14:07:17+08:00 ] 120.33.62.14 /index.php?s=/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+
+[ 2015-10-19T14:10:52+08:00 ] 120.33.62.14 /index.php?s=/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+
+[ 2015-10-19T14:11:37+08:00 ] 120.33.62.14 /index.php?s=/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+
+[ 2015-10-19T14:26:24+08:00 ] 120.33.62.14 /index.php?s=/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+
+[ 2015-10-19T14:26:55+08:00 ] 120.33.62.14 /index.php?s=/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+
+[ 2015-10-19T14:27:39+08:00 ] 120.33.62.14 /index.php?s=/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+
+[ 2015-10-19T14:31:10+08:00 ] 120.33.62.14 /index.php?s=/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+
+[ 2015-10-19T14:38:24+08:00 ] 120.33.62.14 /index.php?s=/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+
+[ 2015-10-19T15:03:44+08:00 ] 120.33.62.14 /index.php?s=/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+
+[ 2015-10-19T15:03:48+08:00 ] 120.33.62.14 /index.php?s=/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+
+[ 2015-10-19T15:07:10+08:00 ] 120.33.62.14 /index.php?s=/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+
+[ 2015-10-19T15:09:51+08:00 ] 120.33.62.14 /index.php?s=/Upcard/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+ERR: 非法操作:del
+
+[ 2015-10-19T15:10:40+08:00 ] 120.33.62.14 /index.php?s=/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-19T15:14:15+08:00 ] 120.33.62.14 /index.php?s=/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+
+[ 2015-10-19T15:15:59+08:00 ] 120.33.62.14 /index.php?s=/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+
+[ 2015-10-19T15:17:06+08:00 ] 120.33.62.14 /index.php?s=/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+
+[ 2015-10-19T15:19:03+08:00 ] 120.33.62.14 /index.php?s=/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+
+[ 2015-10-19T15:19:29+08:00 ] 120.33.62.14 /index.php?s=/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+
+[ 2015-10-19T15:19:48+08:00 ] 120.33.62.14 /index.php?s=/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+
+[ 2015-10-19T15:20:02+08:00 ] 120.33.62.14 /index.php?s=/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+
+[ 2015-10-19T15:22:33+08:00 ] 120.33.62.14 /index.php?s=/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0010s ]
+SQL: DELETE FROM `m_user` WHERE `uid` IN ('4') [ RunTime:0.1553s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `m_auth_group_access` [ RunTime:0.0004s ]
+SQL: DELETE FROM `m_auth_group_access` WHERE `uid` IN ('4') [ RunTime:0.0003s ]
+
+[ 2015-10-19T15:42:00+08:00 ] 120.33.62.14 /index.php?s=/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0009s ]
+SQL: DELETE FROM `m_user` WHERE `uid` IN ('12') [ RunTime:0.0423s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `m_auth_group_access` [ RunTime:0.0004s ]
+SQL: DELETE FROM `m_auth_group_access` WHERE `uid` IN ('12') [ RunTime:0.0002s ]
+
+[ 2015-10-19T15:42:05+08:00 ] 120.33.62.14 /index.php?s=/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0008s ]
+SQL: DELETE FROM `m_user` WHERE `uid` IN ('11') [ RunTime:0.0131s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `m_auth_group_access` [ RunTime:0.0005s ]
+SQL: DELETE FROM `m_auth_group_access` WHERE `uid` IN ('11') [ RunTime:0.0002s ]
+

@@ -1,0 +1,46 @@
+<div class="bjui-pageHeader">
+    <form id="pagerForm" data-toggle="ajaxsearch" action="{:U('detail',array('noid'=>$list['noid']))}" method="post">
+        <input type="hidden" name="noid" value="{$list['noid']}">
+        <div class="bjui-searchBar">
+            <label>年月:</label>
+            <select name="mid" data-toggle="selectpicker">
+                <option value="2015-04">2015-04</option>
+                <option value="2015-05">2015-05</option>
+                <option value="2015-06">2015-06</option>
+                <option value="2015-07">2015-07</option>
+                <option value="2015-08">2015-08</option>
+            </select>&nbsp;
+            <button type="submit" class="btn-default" data-icon="search">查询</button>
+        </div>
+    </form>
+</div>
+<div class="bjui-pageContent">
+	<table id="tabledit1" class="table table-bordered table-hover table-striped table-top" data-toggle="tabledit" data-initnum="0" data-action="ajaxDone3.html" data-single-noindex="true">
+        <thead>
+            <tr>
+                <th align="center" colspan="12">4月份考勤表</th>
+            </tr>
+            <tr>
+            	<th colspan="2">日期</th>
+            	<th colspan="2">星期</th>
+            	<th colspan="6">打卡时间</th>
+            </tr>
+        </thead>
+        <tbody>
+        	<volist name="list['content']" id="vo" key='k'>
+	       		<tr data-id="{$k}">
+	                <td colspan="2" data-id-val="{$k}">{$list['mid']}-{$vo.date}</td>
+	                <td colspan="2">{$vo.week|week=###}</td>
+	                <td colspan="8">
+                      <volist name="vo['time']" id="v">
+                        {$v}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </volist>   
+                    </td>
+	            </tr>
+			</volist>
+        </tbody>
+    </table>
+</div>
+<div class="bjui-pageFooter">
+    
+</div>

@@ -1,0 +1,17 @@
+[ 2015-03-28T19:58:34+08:00 ] 222.77.4.45 /index.php?s=/Admin/Category/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `m_category` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `m_category` WHERE `pid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-03-28T20:12:02+08:00 ] 222.77.4.45 /index.php?s=/Admin/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0005s ]
+SQL: INSERT INTO `m_user` (`username`,`sex`,`email`,`last_login_ip`,`status`) VALUES ('wahaha','1','gwea@qq.com','222.77.4.45','1') [ RunTime:0.0439s ]
+
+[ 2015-03-28T20:12:07+08:00 ] 222.77.4.45 /index.php?s=/Admin/Member/index.html
+ERR: 无法加载控制器:Member
+

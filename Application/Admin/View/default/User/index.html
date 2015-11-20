@@ -1,0 +1,142 @@
+<extend name="Public/base"/>
+	<div class="admin-left">
+		<span class="admin-nav-top"><a href="">网站首页</a>|<a href="">后台首页</a></span>
+		<div class="admin-nav">
+			<block name="menu">
+				<ul>
+					<li class="active"><a href="{:U('User/index')}">管理员列表</a></li>
+					<li><a href="{:U('User/addUser')}">添加管理员</a></li>
+					
+				</ul>
+			</block>
+		</div>
+	</div>
+	<block name="right">
+	<div class="admin-right">
+		<nav class="navbar navbar-default" role="navigation" style="padding-left:500px;">
+		  <div class="container-fluid">
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		     
+		      <form class="navbar-form navbar-left" role="search">
+		        
+		       	  <select name="groups" class="form-control" style="margin-right:30px;">
+					 <option value="{:U('index',array('gid'=>0))}">--管理员分组--</option>
+
+					  <volist name="group" id="vo">
+					  	<option <if condition="$vo['id'] eq I('gid')">selected="selected"<else />value="{:U('index',array('gid'=>$vo['id']))}" </if>>{$vo.title}</option>
+					  	
+					  </volist>
+				  </select>
+			      <div class="form-group">
+		          	 <input type="text" class="form-control" placeholder="Search">
+		          </div>
+		        <button type="submit" class="btn btn-default">搜素</button>
+		      </form>
+		     <!--  <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">Link</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+		          <ul class="dropdown-menu" role="menu">
+		            <li><a href="#">Action</a></li>
+		            <li><a href="#">Another action</a></li>
+		            <li><a href="#">Something else here</a></li>
+		            <li class="divider"></li>
+		            <li><a href="#">Separated link</a></li>
+		          </ul>
+		        </li>
+		      </ul> -->
+
+		    </div>
+		  </div>
+		</nav>
+		<span class="admin-right-top">
+			<a href="{:U('addUser')}" class="btn btn-info btn-xm">新增</a>
+			<a class="btn btn-info btn-xm allOpen">启用</a>
+			<a class="btn btn-info btn-xm allDeny">禁用</a>
+			<a class="btn btn-info btn-xm">删除</a>
+		</span>
+		<table class="table">
+  
+		  <tbody align="center">
+		  <tr> 
+		    <td width="3%">选择</td>
+		    <td width="5%">uid</td>
+		    <td width="11%">登录名</td>
+		    <td width="16%">email/昵称</td>
+		    <td width="5%">性别</td>
+		    <td width="20%">管理员分组</td>
+		    <td width="10%">最后登录</td>
+		    <td>操作</td>
+		  </tr>
+		 <volist id="vo" name="list">
+			<tr> 
+			  <td userid="{$vo.uid}"><input type="checkbox" /></td>
+			  <td>{$vo.uid}</td>
+			  <td><a target="_blank">
+			    <u>{$vo.username}</u>
+			  </td>
+			  <td>{$vo.email}</td>
+			  <td><if condition="$vo.sex eq 1">男<else/>女</if></td>
+			  <td>
+			  	<empty name="vo.gro">
+			  		<font color="red">暂无分组</font><br />
+			  	<else />
+				  	<volist name="vo.gro" id="group">	
+				  		<font color="red">{$group.title}</font><br />
+				  	</volist>
+			  	</empty>
+			  	
+			  </td>
+			  <td><if condition="$vo.last_login_time eq 0">还未登录<else />{$vo.last_login_time|date="Y-m-d H:i:s",###} <br>【{$vo.last_login_ip}】</if></td>
+			  <td align="center" userid="{$vo.uid}">
+			    <a class="btn btn-info btn-sm">修改</a>
+			    <a onclick="del({$vo['uid']},this)" class="btn btn-danger btn-sm">删除</a>
+			    <a class="btn btn-info btn-sm deny"><if condition="$vo.status eq 0">启用<else />禁用</if></a>
+			    <a href="{:U('Auth/group',array('uid'=>$vo['uid']))}" class="btn btn-info btn-sm">授权</a>
+			  </td>
+			</tr>
+		 </volist>
+		<tr align="left"> 
+		 <td colspan="9" userid=0>
+			<label>
+				<input class="btn btn-info btn-sm" id="selectedAll" type="checkbox">
+				全选本页
+			</label>
+		 </td>
+		</tr>
+		<tr> 
+		 <td align="center" height="36" colspan="9">
+			<nav>
+
+			  <ul class="pagination">
+			    {$page}
+			  </ul>
+			</nav>
+		 </td>
+		</tr>
+		</tbody></table>
+	</div>
+	</block>
+	<block name="script">
+	<script type="text/javascript" src="__JS__/userList.js"></script>
+	<script type="text/javascript">
+		var denyUrl = '{:U("User/deny")}';
+		//导航高亮
+        highlight_subnav('{:U("User/index")}');
+
+        function del (uid,obj) {
+        	layer.confirm('确定删除？',function(){
+        		ajaxReturn({uid:uid},"{:U('Admin/User/del')}",function(data){
+        			if(data.status){
+        				layer.msg(data.info,2,9);
+        				$(obj).parents('tr').remove();
+        			}else{
+        				layer.alert(data.info);
+        			}
+        		});
+        	})
+        }
+	</script>
+	</block>
+</body>
+</html>

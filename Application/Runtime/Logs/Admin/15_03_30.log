@@ -1,0 +1,114 @@
+[ 2015-03-30T15:37:01+08:00 ] 125.78.4.195 /index.php?s=/Admin/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0005s ]
+SQL: INSERT INTO `m_user` (`username`,`password`,`sex`,`email`,`last_login_ip`,`status`) VALUES ('vvvv','1d283bf95ee42cd40c6da74b7196a049','1','vvvv@qq.com','125.78.4.195','1') [ RunTime:0.0093s ]
+
+[ 2015-03-30T15:38:43+08:00 ] 125.78.4.195 /index.php?s=/Admin/User/index.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+
+[ 2015-03-30T15:46:27+08:00 ] 125.78.4.195 /index.php?s=/Admin/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0005s ]
+SQL: DELETE FROM `m_user` WHERE `uid` IN ('13') [ RunTime:0.0086s ]
+
+[ 2015-03-30T15:47:29+08:00 ] 125.78.4.195 /index.php?s=/Admin/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0005s ]
+SQL: DELETE FROM `m_user` WHERE `uid` IN ('12') [ RunTime:0.0150s ]
+
+[ 2015-03-30T15:47:34+08:00 ] 125.78.4.195 /index.php?s=/Admin/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0005s ]
+SQL: DELETE FROM `m_user` WHERE `uid` IN ('11') [ RunTime:0.0207s ]
+
+[ 2015-03-30T15:47:38+08:00 ] 125.78.4.195 /index.php?s=/Admin/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0005s ]
+SQL: DELETE FROM `m_user` WHERE `uid` IN ('10') [ RunTime:0.0082s ]
+
+[ 2015-03-30T15:48:05+08:00 ] 125.78.4.195 /index.php?s=/Admin/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0005s ]
+SQL: DELETE FROM `m_user` WHERE `uid` IN ('9') [ RunTime:0.0078s ]
+
+[ 2015-03-30T15:48:08+08:00 ] 125.78.4.195 /index.php?s=/Admin/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0005s ]
+SQL: DELETE FROM `m_user` WHERE `uid` IN ('8') [ RunTime:0.0311s ]
+
+[ 2015-03-30T15:48:12+08:00 ] 125.78.4.195 /index.php?s=/Admin/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0005s ]
+SQL: DELETE FROM `m_user` WHERE `uid` IN ('7') [ RunTime:0.0090s ]
+
+[ 2015-03-30T15:48:16+08:00 ] 125.78.4.195 /index.php?s=/Admin/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0005s ]
+SQL: DELETE FROM `m_user` WHERE `uid` IN ('6') [ RunTime:0.0076s ]
+
+[ 2015-03-30T15:48:47+08:00 ] 125.78.4.195 /index.php?s=/Admin/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0005s ]
+SQL: DELETE FROM `m_user` WHERE `uid` IN ('5') [ RunTime:0.0099s ]
+
+[ 2015-03-30T15:51:59+08:00 ] 125.78.4.195 /index.php?s=/Admin/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0005s ]
+SQL: DELETE FROM `m_user` WHERE `uid` IN ('3') [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `m_auth_group_access` [ RunTime:0.0003s ]
+SQL: DELETE FROM `m_auth_group_access` WHERE `uid` IN ('3') [ RunTime:0.0002s ]
+
+[ 2015-03-30T16:05:03+08:00 ] 125.78.4.195 /index.php?s=/Admin/Category/addCategory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `m_category` [ RunTime:0.0005s ]
+SQL: INSERT INTO `m_category` (`pid`,`title`,`status`,`sort`) VALUES ('4','泡泡袖','1','4') [ RunTime:0.0085s ]
+
+[ 2015-03-30T16:17:24+08:00 ] 125.78.4.195 /index.php?s=/Admin/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0005s ]
+SQL: INSERT INTO `m_user` (`username`,`password`,`sex`,`email`,`last_login_ip`,`status`) VALUES ('admin2','c84258e9c39059a89ab77d846ddab909','1','admin2@qq.com','125.78.4.195','1') [ RunTime:0.0093s ]
+
+[ 2015-03-30T16:17:33+08:00 ] 125.78.4.195 /index.php?s=/Admin/User/addUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0005s ]
+SQL: INSERT INTO `m_user` (`username`,`password`,`sex`,`email`,`last_login_ip`,`status`) VALUES ('admin2','c84258e9c39059a89ab77d846ddab909','1','admin2@qq.com','125.78.4.195','1') [ RunTime:0.0086s ]
+
+[ 2015-03-30T16:17:43+08:00 ] 125.78.4.195 /index.php?s=/Admin/User/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `m_user` [ RunTime:0.0005s ]
+SQL: DELETE FROM `m_user` WHERE `uid` IN ('15') [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `m_auth_group` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `m_auth_group_access` [ RunTime:0.0004s ]
+SQL: DELETE FROM `m_auth_group_access` WHERE `uid` IN ('15') [ RunTime:0.0002s ]
+

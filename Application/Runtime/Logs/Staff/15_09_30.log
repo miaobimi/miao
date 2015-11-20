@@ -1,0 +1,109 @@
+[ 2015-09-30T10:13:22+08:00 ] 117.24.164.187 /index.php?s=/Out/signDown.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+SQL: SHOW COLUMNS FROM `m_outform` [ RunTime:0.0010s ]
+SQL: UPDATE `m_outform` SET `endDate`='1443542400',`expectedReason`='',`backTime`='1443579202' WHERE `id` = 9 [ RunTime:0.0385s ]
+
+[ 2015-09-30T10:14:12+08:00 ] 117.24.164.187 /index.php?s=/Out/signDown.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `m_outform` [ RunTime:0.0009s ]
+SQL: UPDATE `m_outform` SET `endDate`='1443542400',`expectedReason`='gf',`backTime`='1443579252' WHERE `id` = 9 [ RunTime:0.0254s ]
+
+[ 2015-09-30T10:24:54+08:00 ] 117.24.164.187 /index.php?s=/upcard/index.html
+ERR: 无法加载控制器:Upcard
+
+[ 2015-09-30T10:24:55+08:00 ] 117.24.164.187 /index.php?s=/upcard/index.html
+ERR: 无法加载控制器:Upcard
+
+[ 2015-09-30T10:31:56+08:00 ] 117.24.164.187 /index.php?s=/Out/signDown.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `m_outform` [ RunTime:0.0009s ]
+SQL: UPDATE `m_outform` SET `endDate`='1443801600',`expectedReason`='',`backTime`='1443580316' WHERE `id` = 3 [ RunTime:0.0147s ]
+
+[ 2015-09-30T10:32:42+08:00 ] 117.24.164.187 /index.php?s=/Out/signDown.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `m_outform` [ RunTime:0.0009s ]
+SQL: UPDATE `m_outform` SET `endDate`='1443628800',`expectedReason`='',`backTime`='1443580362' WHERE `id` = 3 [ RunTime:0.0172s ]
+
+[ 2015-09-30T10:35:29+08:00 ] 117.24.164.187 /index.php?s=/Out/signDown.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `m_outform` [ RunTime:0.0009s ]
+SQL: UPDATE `m_outform` SET `endDate`='1443628800',`expectedReason`='',`backTime`='1443580529' WHERE `id` = 3 [ RunTime:0.0194s ]
+
+[ 2015-09-30T10:38:50+08:00 ] 117.24.164.187 /index.php?s=/Out/signDown.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `m_outform` [ RunTime:0.0009s ]
+SQL: UPDATE `m_outform` SET `endDate`='1443715200',`expectedReason`='',`backTime`='1443580730',`status`='1' WHERE `id` = 4 [ RunTime:0.0483s ]
+
+[ 2015-09-30T10:40:16+08:00 ] 117.24.164.187 /index.php?s=/Out/signDown.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `m_outform` [ RunTime:0.0009s ]
+SQL: UPDATE `m_outform` SET `endDate`='1443628800',`expectedReason`='',`backTime`='1443580816',`status`='1' WHERE `id` = 9 [ RunTime:0.0165s ]
+
+[ 2015-09-30T10:50:46+08:00 ] 117.24.164.187 /index.php?s=/upcard/index.html
+ERR: 无法加载控制器:Upcard
+
+[ 2015-09-30T10:50:46+08:00 ] 117.24.164.187 /index.php?s=/upcard/index.html
+ERR: 无法加载控制器:Upcard
+
+[ 2015-09-30T10:52:31+08:00 ] 117.24.164.187 /index.php?s=/upcard/index.html
+ERR: 模板不存在:./Application/Staff/View/Upcard/index.html
+
+[ 2015-09-30T11:08:20+08:00 ] 117.24.164.187 /index.php?s=/Out/signDown.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `m_outform` [ RunTime:0.0009s ]
+SQL: UPDATE `m_outform` SET `endDate`='1443542400',`expectedReason`='df',`backTime`='1443582500',`status`='1' WHERE `id` = 3 [ RunTime:0.0351s ]
+
+[ 2015-09-30T13:36:19+08:00 ] 117.24.164.187 /index.php?s=/upcard/lists.html
+ERR: 模板不存在:./Application/Staff/View/Upcard/lists.html
+
+[ 2015-09-30T13:36:19+08:00 ] 117.24.164.187 /index.php?s=/upcard/lists.html
+ERR: 模板不存在:./Application/Staff/View/Upcard/lists.html
+
+[ 2015-09-30T17:04:37+08:00 ] 117.24.164.187 /index.php?s=/User/lists.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'miao.m_user_relation' doesn't exist
+
+[ 2015-09-30T17:05:53+08:00 ] 117.24.164.187 /index.php?s=/User/lists.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'miao.m_user_relation' doesn't exist
+
+[ 2015-09-30T17:05:55+08:00 ] 117.24.164.187 /index.php?s=/User/lists.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'miao.m_user_relation' doesn't exist
+
+[ 2015-09-30T17:05:56+08:00 ] 117.24.164.187 /index.php?s=/User/lists.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'miao.m_user_relation' doesn't exist
+
+[ 2015-09-30T17:25:17+08:00 ] 117.24.164.187 /index.php?s=/Auth/group/uid/1.html
+ERR: 模板不存在:./Application/Staff/View/Auth/group.html
+
+[ 2015-09-30T17:25:17+08:00 ] 117.24.164.187 /index.php?s=/Auth/group/uid/1.html
+ERR: 模板不存在:./Application/Staff/View/Auth/group.html
+
+[ 2015-09-30T17:26:12+08:00 ] 117.24.164.187 /index.php?s=/Auth/group/uid/1.html
+ERR: 模板不存在:./Application/Staff/View/Auth/group.html
+
+[ 2015-09-30T17:26:13+08:00 ] 117.24.164.187 /index.php?s=/Auth/group/uid/1.html
+ERR: 模板不存在:./Application/Staff/View/Auth/group.html
+

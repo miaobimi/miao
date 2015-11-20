@@ -1,0 +1,80 @@
+[ 2015-10-21T15:45:01+08:00 ] 120.37.153.234 /index.php?s=/Upcard/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+SQL: SHOW COLUMNS FROM `m_upcard` [ RunTime:0.0009s ]
+SQL: INSERT INTO `m_upcard` (`uid`,`signTime`,`upcardTime`,`managersignal`,`directorsignal`,`colleagueText`,`reason`) VALUES ('10','0','','0','0','','') [ RunTime:0.0867s ]
+
+[ 2015-10-21T15:46:26+08:00 ] 120.37.153.234 /index.php?s=/Upcard/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `m_upcard` [ RunTime:0.0013s ]
+SQL: INSERT INTO `m_upcard` (`uid`,`signTime`,`upcardTime`,`managersignal`,`directorsignal`,`colleagueText`,`reason`) VALUES ('10','0','','0','0','','') [ RunTime:0.0141s ]
+
+[ 2015-10-21T15:56:59+08:00 ] 120.37.153.234 /index.php?s=/Off/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `m_upcard` [ RunTime:0.0009s ]
+SQL: INSERT INTO `m_upcard` (`uid`,`signTime`,`upcardTime`,`managersignal`,`directorsignal`,`colleagueText`,`reason`) VALUES ('10','0','','0','0','','') [ RunTime:0.0272s ]
+
+[ 2015-10-21T15:57:26+08:00 ] 120.37.153.234 /index.php?s=/Off/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `m_upcard` [ RunTime:0.0013s ]
+SQL: INSERT INTO `m_upcard` (`uid`,`signTime`,`upcardTime`,`managersignal`,`directorsignal`,`colleagueText`,`reason`) VALUES ('10','0','','0','0','','') [ RunTime:0.0106s ]
+
+[ 2015-10-21T16:03:54+08:00 ] 120.37.153.234 /index.php?s=/Off/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `m_upcard` [ RunTime:0.0008s ]
+SQL: INSERT INTO `m_upcard` (`uid`,`signTime`,`upcardTime`,`managersignal`,`directorsignal`,`colleagueText`,`reason`) VALUES ('10','0','','0','0','','') [ RunTime:0.0357s ]
+
+[ 2015-10-21T16:05:12+08:00 ] 120.37.153.234 /index.php?s=/Off/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `m_upcard` [ RunTime:0.0009s ]
+SQL: INSERT INTO `m_upcard` (`uid`,`signTime`,`upcardTime`,`managersignal`,`directorsignal`,`colleagueText`,`reason`) VALUES ('10','0','','0','0','','') [ RunTime:0.0156s ]
+
+[ 2015-10-21T16:57:49+08:00 ] 120.37.153.234 /index.php?s=/Off/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `m_upcard` [ RunTime:0.0011s ]
+SQL: INSERT INTO `m_upcard` (`uid`,`signTime`,`upcardTime`,`managersignal`,`directorsignal`,`colleagueText`,`reason`) VALUES ('10','0','','0','0','','') [ RunTime:0.1108s ]
+
+[ 2015-10-21T17:10:14+08:00 ] 120.37.153.234 /index.php?s=/Off/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `m_upcard` [ RunTime:0.0014s ]
+SQL: INSERT INTO `m_upcard` (`uid`,`signTime`,`upcardTime`,`managersignal`,`directorsignal`,`colleagueText`,`reason`) VALUES ('10','0','','0','0','','') [ RunTime:0.0407s ]
+
+[ 2015-10-21T17:17:08+08:00 ] 120.37.153.234 /index.php?s=/Off/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `m_upcard` [ RunTime:0.0009s ]
+SQL: INSERT INTO `m_upcard` (`uid`,`signTime`,`upcardTime`,`managersignal`,`directorsignal`,`colleagueText`,`reason`) VALUES ('10','0','','0','0','','') [ RunTime:0.0555s ]
+
+[ 2015-10-21T17:28:07+08:00 ] 120.37.153.234 /index.php?s=/Off/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `m_upcard` [ RunTime:0.0009s ]
+SQL: INSERT INTO `m_upcard` (`uid`,`signTime`,`upcardTime`,`managersignal`,`directorsignal`,`colleagueText`,`reason`) VALUES ('10','0','','0','0','','') [ RunTime:0.0380s ]
+

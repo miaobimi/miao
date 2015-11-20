@@ -1,0 +1,6 @@
+[ 2015-05-10T09:12:16+08:00 ] 127.0.0.1 /miao/index.php?s=/Erp/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002952s ]
+

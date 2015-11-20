@@ -1,0 +1,91 @@
+*{
+	margin : 0;
+	padding: 0;
+}
+
+body{
+	background: url(../Images/gezi.gif) repeat;
+}
+.Validform_wrong{
+	text-align: left;
+	color:red;
+}
+#Validform_msg{
+	display: none;
+}
+.login-box{
+	display: block;
+	width: 400px;
+	height: 400px;
+	margin:auto;
+	margin-top: 100px;
+	border: 1px solid #fff;
+	padding: 20px;
+	background: #3C3E3E;
+	border-radius: 6px;
+}
+.login-box img{
+	display: block;
+	margin: 20px auto;
+	margin-bottom: 40px;
+}
+.login-box a.loginBtn{
+	display: block;
+	text-align: center;
+	background: url("../Images/sibar.gif") repeat-x;
+    border-radius: 5px;
+    color: #fff;
+    height: 45px;
+    padding-top: 10px;
+    width: 230px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    cursor: pointer;
+    margin : auto;
+}
+.login-box input,.select{
+	background: #333333;
+	color:#fff;
+}
+.login-box a.reg{
+	display: block;
+	color:#fff;
+	width: 140px;
+	margin: auto;
+	text-align: center;
+}
+#reg-div{
+	display: block;
+	width: 800px;
+	height: 680px;
+	border: 1px solid #fff;
+	margin: 20px auto;
+	color:#fff;
+	padding: 20px;
+	border-radius: 6px;
+	margin-top: 20px;
+}
+#reg-div input{
+	background: #333333;
+	border: 1px solid #57585A;
+	color:#fff;
+}
+#lan{
+	display: block;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

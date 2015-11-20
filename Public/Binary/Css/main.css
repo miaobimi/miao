@@ -1,0 +1,12 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	display: inline-block;
+	float: left;
+}
+p,h2,h3,b,img{
+	display: block;
+	border: 0 none;
+}

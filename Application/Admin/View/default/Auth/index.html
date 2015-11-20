@@ -1,0 +1,131 @@
+<extend name="Public/base"/>
+	<div class="admin-left">
+		<span class="admin-nav-top"><a href="">网站首页</a>|<a href="">后台首页</a></span>
+		<div class="admin-nav">
+			<block name="menu">
+				<ul>
+					<li class="active"><a href="{:U('Auth/index')}">角色列表</a></li>
+					<li><a href="{:U('Auth/addRole')}">添加角色</a></li>
+					<li><a href="{:U('Auth/node')}">节点列表</a></li>
+					<li><a href="{:U('Auth/addNode')}">添加节点</a></li>
+					<li><a href="{:U('Auth/addModules')}">添加模块</a></li>
+				</ul>
+			</block>
+	</div>
+	<block name="right">
+	<div class="admin-right">
+		<nav class="navbar navbar-default" role="navigation" style="padding-left:500px;">
+		  <div class="container-fluid">
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">Link</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+		          <ul class="dropdown-menu" role="menu">
+		            <li><a href="#">Action</a></li>
+		            <li><a href="#">Another action</a></li>
+		            <li><a href="#">Something else here</a></li>
+		            <li class="divider"></li>
+		            <li><a href="#">Separated link</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+
+		    </div>
+		  </div>
+		</nav>
+		<span class="admin-right-top">
+			<a href="{:U('addRole')}" class="btn btn-info btn-xm">新增</a>
+			<a class="btn btn-info btn-xm">启用</a>
+			<a class="btn btn-info btn-xm">禁用</a>
+			<a class="btn btn-info btn-xm">删除</a>
+		</span>
+		<table class="table">
+  
+		  <tbody align="center">
+		  <tr> 
+		    <td width="3%">选择</td>
+		    <td width="11%">角色组</td>
+		    <td width="16%">描述</td>
+		    <td width="20%">授权</td>
+		    <td width="20%">状态</td>
+		    <td>操作</td>
+		  </tr>
+		 <volist id="vo" name="list">
+			<tr> 
+			  <td><input type="checkbox" name="id"></td>
+			  <td><a target="_blank">
+			    <u>{$vo.title}</u>
+			  </td>
+			  <td>{$vo.description}</td>
+			  <td><a href="{:U('Auth/node',array('gid'=>$vo['id']))}">访问授权</a>  <a href="{:U('Auth/toGroup',array('gid'=>$vo['id']))}">成员授权</a></td>
+			  <td><if condition="$vo.status eq 1">开启<else />关闭</if></td>
+			  <td align="center">
+			    <a  class="btn btn-danger btn-sm">删除</a>
+			    <a onclick="changeStatus({$vo.id},this);" class="btn btn-info btn-sm"><eq name="vo['status']" value="0">启用<else/>禁用</eq></a>
+			  </td>
+			</tr>
+		 </volist>
+		<tr align="left"> 
+		 <td colspan="9">
+			<label >
+				<input class="btn btn-info btn-sm" id="selectedAll" type="checkbox">
+				全选本页
+			</label>
+		 </td>
+		</tr>
+		<tr> 
+		 <td align="center" height="36" colspan="9">
+			<nav>
+
+			  <ul class="pagination">
+			    {$page}
+			  </ul>
+			</nav>
+		 </td>
+		</tr>
+		</tbody></table>
+	</div>
+	</block>
+	<block name="script">
+	<script type="text/javascript">
+		$(function(){
+			$('#selectedAll').on('ifChecked', function(event){
+				$('input').iCheck('check');
+			});
+			$('#selectedAll').on('ifUnchecked', function(event){
+				$('input').iCheck('uncheck');
+			});
+		})
+		//导航高亮
+        highlight_subnav('{:U("Auth/index")}');
+
+        function changeStatus(id,obj){
+        	var self = obj;
+        	if($.trim($(self).text()) == '禁用'){
+        		var status = 0;
+        	}else{
+        		var status = 1;
+        	}
+        	layer.confirm('确定执行该操作?',function(){
+        		
+        		ajaxReturn("{:U('Admin/Auth/changeRoleStatus')}",{id:id,status:status},'POST',null,function(data){
+        			layer.closeAll();
+        			if(data.status){
+        				if(status){
+        					$(self).parent().prev().empty().text('开启');
+        					$(self).text('关闭');
+        				}else{
+        					$(self).parent().prev().empty().text('关闭');
+        					$(self).text('开启');
+        				}
+        			}else{
+        				layer.alert(data.info);
+        			}
+        		})
+        	})
+        }
+	</script>
+	</block>
+</body>
+</html>

@@ -1,0 +1,18 @@
+[ 2015-09-11T14:09:55+08:00 ] 27.153.13.247 /index.php?s=/Auth/node/gid/1.html
+ERR: 模板不存在:./Application/Staff/View/Auth/node.html
+
+[ 2015-09-11T14:09:57+08:00 ] 27.153.13.247 /index.php?s=/Auth/node/gid/1.html
+ERR: 模板不存在:./Application/Staff/View/Auth/node.html
+
+[ 2015-09-11T14:11:38+08:00 ] 27.153.13.247 /index.php?s=/Auth/node/gid/1.html
+ERR: 模板不存在:./Application/Staff/View/Auth/node.html
+
+[ 2015-09-11T14:11:40+08:00 ] 27.153.13.247 /index.php?s=/Auth/node/gid/1.html
+ERR: 模板不存在:./Application/Staff/View/Auth/node.html
+
+[ 2015-09-11T14:11:44+08:00 ] 27.153.13.247 /index.php?s=/Auth/node/gid/1.html
+ERR: 模板不存在:./Application/Staff/View/Auth/node.html
+
+[ 2015-09-11T14:11:45+08:00 ] 27.153.13.247 /index.php?s=/Auth/node/gid/1.html
+ERR: 模板不存在:./Application/Staff/View/Auth/node.html
+

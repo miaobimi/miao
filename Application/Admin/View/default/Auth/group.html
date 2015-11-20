@@ -1,0 +1,46 @@
+<extend name="Public/base"/>
+	<div class="admin-left">
+		<span class="admin-nav-top"><a href="">网站首页</a>|<a href="">后台首页</a></span>
+		<div class="admin-nav">
+			<block name="menu">
+				<ul>
+					<li><a href="{:U('User/index')}">管理员列表</a></li>
+					<li><a href="{:U('User/addUser')}">添加管理员</a></li>
+				</ul>
+			</block>
+	</div>
+	<block name="right">
+	<div class="admin-right">
+		<ol class="breadcrumb">
+		  <li><a href="#">权限管理</a></li>
+		  <li><a href="#">为<font style="color:red;">{$username}</font>指定组</a></li>
+		  
+		</ol>
+		<form method="POST" action="{:U('Auth/group',array('uid'=>I('uid')))}" class="form-horizontal" role="form">
+			<volist name="group" id="vo">
+			  <div class="checkbox">
+			    <h4>
+			    	<label>
+			     	 <input <php>if(in_array($vo['id'], $groupid)){echo "checked='true'";}</php> type="checkbox" name="groupid[]" value="{$vo.id}"> {$vo.title}
+			     	 <small>{$vo.description}</small>
+			        </label>
+			    </h4>
+			  </div>
+		    </volist>
+		  <div class="form-group">
+		    <div class="col-sm-offset-2 col-sm-10">
+		      <button type="submit" class="btn btn-info">确定</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		      <a class="btn btn-info" href="{:U('User/index')}">返回</a>
+		    </div>
+		  </div>
+		</form>
+	</div>
+	</block>
+</body>
+<block name="script">
+	<script type="text/javascript">
+		//导航高亮
+        highlight_subnav('{:U("User/index")}');
+	</script>
+</block>
+</html>

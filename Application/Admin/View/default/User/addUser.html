@@ -1,0 +1,86 @@
+<extend name="Public/base"/>
+	<div class="admin-left">
+		<span class="admin-nav-top"><a href="">网站首页</a>|<a href="">后台首页</a></span>
+		<div class="admin-nav">
+			<block name="menu">
+				<ul>
+					<li><a href="{:U('User/index')}">管理员列表</a></li>
+					<li class="active"><a href="{:U('User/addUser')}">添加管理员</a></li>
+					
+				</ul>
+			</block>
+	</div>
+	<block name="right">
+	<div class="admin-right">
+		<ol class="breadcrumb">
+		  <li><a href="#">权限管理</a></li>
+		  <li><a href="#">添加管理员</a></li>
+		  
+		</ol>
+		<form name="addUser" class="form-horizontal addUser" role="form" action="{:U(addUser)}" method="POST">
+		  <div class="form-group">
+		    <label class="col-sm-2 control-label">管理员名称：</label>
+		    <div class="col-sm-2">
+		      <input type="text" dataType="*2-20" nullmsg="不能为空" class="form-control" name="username">
+		    </div>
+		    <label class="control-label" for="inputSuccess"></label>
+		  </div>
+		   <div class="form-group">
+		    <label class="col-sm-2 control-label">性别：</label>
+		    <div class="col-sm-2">
+		       <label class="radio-inline"><input value="1" type="radio" name="sex" checked="checked"/>男</label>
+		       <label class="radio-inline"> <input value="0" type="radio" name="sex" />女</label>		     
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="inputEmail3" class="col-sm-2 control-label">Email：</label>
+		    <div class="col-sm-3">
+		      <input name="email" dataType="e" nullmsg="不能为空" type="email" class="form-control">
+		    </div>
+		    <label class="control-label" for="inputSuccess"></label>
+		  </div>
+		  <div class="form-group">
+		    <label for="inputPassword3" class="col-sm-2 control-label">密码：</label>
+		    <div class="col-sm-3">
+		      <input name="password" datatype="*6-15" errormsg="密码范围在6~15位之间！" nullmsg="不能为空" type="password" class="form-control"  id="pwd" placeholder="Password">
+		    </div>
+		    <label class="control-label" for="inputSuccess"></label>
+		  </div>
+		  <div class="form-group">
+		    <label for="inputPassword3" class="col-sm-2 control-label">确认密码：</label>
+		    <div class="col-sm-3">
+		      <input name="passworded" datatype="*" recheck="password" errormsg="您两次输入的账号密码不一致！" type="password" nullmsg="不能为空" class="form-control" placeholder="Password">
+		    </div>
+		    <label class="control-label" for="inputSuccess"></label>
+		  </div>
+		  <div class="form-group">
+		    <div class="col-sm-offset-2 col-sm-10">
+		      <button id="add-user" type="submit" class="btn btn-info">确定</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		      <a class="btn btn-info" href="{:U(index)}">返回</a>
+		    </div>
+		  </div>
+		</form>
+	</div>
+	</block>
+</body>
+<style>
+	.Validform_checktip{
+		display: block;
+		float: right;
+	}
+</style>
+<block name="script">
+	
+	<script type="text/javascript">
+		validate('.addUser',function(data){
+			if(data.status){
+
+			}else{
+				layer.alert(data.info);
+			}
+		},true)
+		//导航高亮
+        highlight_subnav('{:U("User/index")}');
+	</script>
+</block>
+</html>

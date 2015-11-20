@@ -1,0 +1,62 @@
+<extend name="Public/base"/>
+	<div class="admin-left">
+		<span class="admin-nav-top"><a href="">网站首页</a>|<a href="">后台首页</a></span>
+		<div class="admin-nav">
+			<block name="menu">
+				<ul>
+					<li><a href="{:U('Auth/index')}">角色列表</a></li>
+					<li><a href="{:U('Auth/addRole')}">添加角色</a></li>
+					<li><a href="{:U('Auth/Node')}">节点列表</a></li>
+					<li><a href="{:U('Auth/addNode')}">添加节点</a></li>
+					<li class="active"><a href="{:U('Auth/addModules')}">添加模块</a></li>
+				</ul>
+			</block>
+	</div>
+	<block name="right">
+	<div class="admin-right">
+		<ol class="breadcrumb">
+		  <li><a href="#">权限管理</a></li>
+		  <li><a href="#">添加模块</a></li>
+		  
+		</ol>
+		<form name="addModules" class="form-horizontal" role="form">
+		  <div class="form-group">
+		    <label class="col-sm-2 control-label">模块名称：</label>
+		    <div class="col-sm-2">
+		      <input type="text" class="form-control" name="modules_name">
+		    </div>
+		    <label class="control-label" for="inputSuccess"></label>
+		  </div>
+		  <div class="form-group">
+		    <label class="col-sm-2 control-label">模块链接：</label>
+		    <div class="col-sm-3">
+		      <input type="text" class="form-control" name="link">
+		    </div>
+		    <label class="control-label" for="inputSuccess"></label>
+		  </div>
+		  <div class="form-group">
+		    <label class="col-sm-2 control-label">排序：</label>
+		    <div class="col-sm-2">
+		      <input type="text" class="form-control" name="sort">
+		    </div>
+		    <label class="control-label" for="inputSuccess" style="color:red;">数字越小越靠前</label>
+		  </div>
+		  <div class="form-group">
+		    <div class="col-sm-offset-2 col-sm-10">
+		      <button id="add-modules" type="button" class="btn btn-info">确定</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		      <a class="btn btn-info" href="{:U(index)}">返回</a>
+		    </div>
+		  </div>
+		</form>
+	</div>
+	</block>
+</body>
+<block name="script">
+	<script type="text/javascript" src="__JS__/addModules.js"></script>
+	<script type="text/javascript">
+		var addModulesUrl = '{:U(addModules)}';
+		//导航高亮
+        highlight_subnav('{:U("Auth/addModules")}');
+	</script>
+</block>
+</html>

@@ -1,0 +1,643 @@
+<include file="Base:header" />
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <include file="Base:slibar" />
+
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+            <div class="row border-bottom">
+                <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                    <div class="navbar-header">
+                        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="icon-reorder"></i> </a>
+                        <form role="search" class="navbar-form-custom" method="post" action="search_results.html">
+                            <div class="form-group">
+                                <input type="text" placeholder="请输入您需要查找的内容 …" class="form-control" name="top-search" id="top-search">
+                            </div>
+                        </form>
+                    </div>
+                    <ul class="nav navbar-top-links navbar-right">
+                        <li>
+                            <span class="m-r-sm text-muted welcome-message"><a href="index.html" title="返回首页"><i class="icon-home"></i></a>欢迎使用</span>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle count-info" data-toggle="dropdown" href="index.html#">
+                                <i class="icon-envelope"></i> <span class="label label-warning">16</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-messages">
+                                <li>
+                                    <div class="dropdown-messages-box">
+                                        <a href="profile.html" class="pull-left">
+                                            <img alt="image" class="img-circle" src="__IMG__/a7.jpg">
+                                        </a>
+                                        <div class="media-body">
+                                            <small class="pull-right">46小时前</small>
+                                            <strong>小四</strong> 项目已处理完结
+                                            <br>
+                                            <small class="text-muted">3天前 2014.11.8</small>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <div class="dropdown-messages-box">
+                                        <a href="profile.html" class="pull-left">
+                                            <img alt="image" class="img-circle" src="__IMG__/a4.jpg">
+                                        </a>
+                                        <div class="media-body ">
+                                            <small class="pull-right text-navy">25小时前</small>
+                                            <strong>国民岳父</strong> 这是一条测试信息
+                                            <br>
+                                            <small class="text-muted">昨天</small>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <div class="text-center link-block">
+                                        <a href="mailbox.html">
+                                            <i class="icon-envelope"></i> <strong> 查看所有消息</strong>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle count-info" data-toggle="dropdown" href="index.html#">
+                                <i class="icon-bell"></i> <span class="label label-primary">8</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-alerts">
+                                <li>
+                                    <a href="mailbox.html">
+                                        <div>
+                                            <i class="icon-envelope fa-fw"></i> 您有16条未读消息
+                                            <span class="pull-right text-muted small">4分钟前</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="profile.html">
+                                        <div>
+                                            <i class="icon-qq fa-fw"></i> 3条新回复
+                                            <span class="pull-right text-muted small">12分钟钱</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <div class="text-center link-block">
+                                        <a href="notifications.html">
+                                            <strong>查看所有 </strong>
+                                            <i class="icon-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="{:U('Public/login')}">
+                                <i class="icon-signout"></i> 退出
+                            </a>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+            <div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-lg-10">
+                    <h2>添加用户</h2>
+                    <ol class="breadcrumb">
+                        <li>
+                            <a href="index.html">主页</a>
+                        </li>
+                        <li>
+                            <a>表格</a>
+                        </li>
+                        <li>
+                            <strong>列表</strong>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-lg-2">
+
+                </div>
+            </div>
+            <div class="wrapper wrapper-content animated fadeInRight">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="ibox float-e-margins">
+                            <div class="ibox-title">
+                                <h5>添加用户</h5>
+                                <div class="ibox-tools">
+                                    <a class="collapse-link">
+                                        <i class="fa fa-chevron-up"></i>
+                                    </a>
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="table_basic.html#">
+                                        <i class="fa fa-wrench"></i>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-user">
+                                        <li><a href="table_basic.html#">选项1</a>
+                                        </li>
+                                        <li><a href="table_basic.html#">选项2</a>
+                                        </li>
+                                    </ul>
+                                    <a class="close-link">
+                                        <i class="fa fa-times"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <form id='infoform'>
+                            <div class="ibox-content">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="ibox float-e-margins">
+                                           
+                                            <div class="form-horizontal m-t" >
+                                                <div class="form-group">
+                                                    <label class="col-sm-5 control-label">用户名称：</label>
+                                                    <div class="col-sm-7">
+                                                        <input name="username" minlength="2" type="text" value="{$user['username']}" class="form-control"  aria-required="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-5 control-label">工号：</label>
+                                                    <div class="col-sm-7">
+                                                        <input name="number" minlength="2" type="text" value="{$user['number']}" class="form-control"  aria-required="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-5 control-label">英文名：</label>
+                                                    <div class="col-sm-7">
+                                                        <input name="nickname" minlength="2" type="text" value="{$user['nickname']}" class="form-control"  aria-required="true">
+                                                    </div>
+                                                </div>
+                                                <!-- <div class="form-group">
+                                                    <label class="col-sm-3 control-label">所属组：</label>
+                                                    <div class="col-sm-6">
+                                                        <select class="form-control" name="groupname" id="groupname">
+                                                                <option value="">-选择所属组-</option>
+                                                            <volist name='list1' id='vo'>
+                                                                <option value="$vo['id']">{$vo.title}</option>
+                                                            </volist>
+                                                        </select>
+                                                    </div>
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="ibox float-e-margins">
+                                           
+                                            <div class="form-horizontal m-t" >
+                                                
+                                                <div class="form-group">
+                                                    <label class="col-sm-5 control-label">性别：</label>
+                                                    <div class="col-sm-7">
+                                                        <label class="checkbox-inline i-checks">
+                                                            <input name="sex" <if condition="($user['sex']) eq 0">checked="true"</if> value="0" type="radio">&nbsp;男
+                                                        </label>
+                                                        <label class="checkbox-inline i-checks">
+                                                            <input name="sex" <if condition="($user['sex']) eq 1">checked="true"</if> value="1" type="radio">&nbsp;女
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-5 control-label">婚姻状况：</label>
+                                                    <div class="col-sm-7">
+                                                        <label class="checkbox-inline i-checks">
+                                                            <input name="marriage" <if condition="($user['marriage']) eq 0">checked="true"</if> value="0" type="radio">&nbsp;是
+                                                        </label>
+                                                        <label class="checkbox-inline i-checks">
+                                                            <input name="marriage" <if condition="($user['marriage']) eq 1">checked="true"</if> value="1" type="radio">&nbsp;否
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-5 control-label">手机：</label>
+                                                    <div class="col-sm-7">
+                                                        <input name="mobile" minlength="2" type="text" value="{$user['mobile']}" class="form-control"  aria-required="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-5 control-label">QQ：</label>
+                                                    <div class="col-sm-7">
+                                                        <input name="qq" minlength="2" type="text" value="{$user['qq']}" class="form-control"  aria-required="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-5 control-label">邮箱：</label>
+                                                    <div class="col-sm-7">
+                                                        <input name="email" minlength="2" type="text" value="{$user['email']}" class="form-control"  aria-required="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-5 control-label">身份证：</label>
+                                                    <div class="col-sm-7">
+                                                        <input name="identity" minlength="2" type="text" value="{$user['identity']}" class="form-control"  aria-required="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-5 control-label">出生日期：</label>
+                                                    <div class="col-sm-7">
+                                                        <input name="birth" id='birth' minlength="2" type="text" <if condition="$user['birth'] neq ''">value="{$user['birth']|date='Y-m-d',###}"</if> class="form-control layer-date"  aria-required="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-5 control-label">本人住址：</label>
+                                                    <div class="col-sm-7">
+                                                        <input name="address" minlength="2" type="text" value="{$user['address']}" class="form-control"  aria-required="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-5 control-label">户口所在地：</label>
+                                                    <div class="col-sm-7">
+                                                        <input name="households" minlength="2" type="text" value="{$user['households']}" class="form-control"  aria-required="true">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <div class="ibox float-e-margins">
+                                           
+                                            <div class="form-horizontal m-t" >
+                                                <div class="form-group">
+                                                    <label class="col-sm-5 control-label">平台账号：</label>
+                                                    <div class="col-sm-6">
+                                                        <input name="platform" minlength="2" type="text" value="{$user['platform']}" class="form-control" aria-required="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-5 control-label">是否住宿：</label>
+                                                    <div class="col-sm-6">
+                                                        <label class="checkbox-inline i-checks">
+                                                            <input name="stay" <if condition="($user['stay']) eq 0">checked="true"</if> value="0" type="radio">&nbsp;是
+                                                        </label>
+                                                        <label class="checkbox-inline i-checks">
+                                                            <input name="stay" <if condition="($user['stay']) eq 1">checked="true"</if> value="1" type="radio">&nbsp;否
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-5 control-label">入职日期：</label>
+                                                    <div class="col-sm-6">
+                                                        <input name="entry" id="entry" minlength="2" type="text" <if condition="$user['birth'] neq ''">value="{$user['entry']|date='Y-m-d',###}" </if> class="form-control layer-date"  aria-required="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-5 control-label">离职日期：</label>
+                                                    <div class="col-sm-6">
+                                                        <input name="quit" id="quit" minlength="2" type="text" <if condition="$user['birth'] neq ''">value="{$user['quit']|date='Y-m-d',###}" </if> class="form-control layer-date"  aria-required="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-5 control-label">合同编号：</label>
+                                                    <div class="col-sm-6">
+                                                        <input name="contract" minlength="2" type="text" value="{$user['contract']}" class="form-control"  aria-required="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-5 control-label">合同开始日期：</label>
+                                                    <div class="col-sm-6">
+                                                        <input name="startcon" id="startcon" minlength="2" type="text" <if condition="$user['birth'] neq ''">value="{$user['startcon']|date='Y-m-d',###}"</if> class="form-control layer-date"  aria-required="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-5 control-label">合同结束日期：</label>
+                                                    <div class="col-sm-6">
+                                                        <input name="endcon" id="endcon" minlength="2" type="text" <if condition="$user['birth'] neq ''"> value="{$user['endcon']|date='Y-m-d',###}"</if> class="form-control layer-date"  aria-required="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-5 control-label">试用期开始日期：</label>
+                                                    <div class="col-sm-6">
+                                                        <input name="starttrial" id="starttrial" minlength="2" type="text" <if condition="$user['birth'] neq ''">value="{$user['starttrial']|date='Y-m-d',###}"</if> class="form-control layer-date"  aria-required="true">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-sm-5 control-label">试用期结束日期：</label>
+                                                    <div class="col-sm-6">
+                                                        <input name="endtrial" id="endtrial" minlength="2" type="text" <if condition="$user['birth'] neq ''">value="{$user['endtrial']|date='Y-m-d',###}"</if> class="form-control layer-date" aria-required="true">
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="ibox-content">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <div class="col-sm-4 col-sm-offset-5">
+                                                <a href="{:U('lists')}" class="btn btn-danger">返回</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                                <if condition="$user['uid'] eq session('uid')">
+                                                    <button id="upBtn" class="btn btn-primary" type="submit">修改</button>
+                                                <else/>
+                                                    <button id="sumBtn" class="btn btn-primary" type="submit">提交</button>
+                                                </if>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer">
+                <div class="pull-right">
+                    By：<a href="http://www.chntz.cn" target="_blank">xxxx</a>
+                </div>
+                <div>
+                    <strong>Copyright</strong> 中远融投
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    </div>
+
+
+    <!-- iCheck -->
+    <link href="__STATIC__/iCheck/skins/all.css" rel="stylesheet">
+    <script src="__STATIC__/iCheck/icheck.min.js"></script>
+    <!-- Custom and plugin javascript -->
+    <script src="__JS__/hplus.js?v=2.2.0"></script>
+    <script src="__STATIC__/pace/pace.min.js"></script>
+    <script src="__STATIC__/layer1.9.3/layer.js"></script>
+    <!-- layerdate -->
+    <script src="__STATIC__/layer/laydate/laydate.js"></script>
+    <script>
+        //导航高亮
+        highlight_subnav('{:U("User/index")}');
+
+        $(document).ready(function () {
+            $('.i-checks').iCheck({
+                checkboxClass: 'icheckbox_square-green',
+                radioClass: 'iradio_square-green',
+            });
+            //验证表单
+            $("#infoform").validate({ 
+                rules: {
+                    username: {
+                        required : true,
+                    },
+                    number:{
+                        required:true
+                        // minlength:3
+                    },
+                    nickname:{
+                        required:true,
+                    },
+                    mobile:{
+                        required:true,
+                        digits:true,
+                        minlength:11
+                    },
+                    email:{
+                        required:true,
+                        email:true,
+                    },
+                    qq:{
+                        required:true,
+                        digits:true,
+                    },
+                    identity:{
+                        required:true,
+                        minlength:15,
+                    },
+                    address:{
+                        required:true,
+                    },
+                    households:{
+                        required:true,
+                    },
+                    contract:{
+                        required:true,
+                    },
+                    birth:{
+                        required:true,
+                        date:true,
+                    },
+                    entry:{
+                        required:true,
+                        date:true,
+                    },
+                    quit:{
+                        required:true,
+                        date:true,
+                    },
+                    startcon:{
+                        required:true,
+                        date:true,
+                    },
+                    endcon:{
+                        required:true,
+                        date:true,
+                    },
+                    starttrial:{
+                        required:true,
+                        date:true,
+                    },
+                    endtrial:{
+                        required:true,
+                        date:true,
+                    }
+                },
+                messages: {
+                    username: {
+                        required : "请输入用户名",
+                    },
+                    number:{
+                        required:'请输入工号',
+                    },
+                    nickname:{
+                        required:'请输入昵称',
+                    },
+                    mobile:{
+                        required:'请输入手机号码',
+                        digits:'输入正确号码',
+                        minlength:'手机位数不正确'
+                    },
+                    email:{
+                        required:'请输入邮箱',
+                        email:'邮箱格式不正确',
+                    },
+                    qq:{
+                        required:'请输入qq号',
+                        digits:'QQ号非法',
+                    },
+                    identity:{
+                        required:'请输入身份证号',
+                        minlength:'最小位数15',
+                    },
+                    address:{
+                        required:'请输入本人住址',
+                    },
+                    households:{
+                        required:'请输入户口所在地',
+                    },
+                    contract:{
+                        required:'请输入合同编号',
+                    },
+                    birth:{
+                        required:'请输入出生日期',
+                        date:'日期格式不正确',
+                    },
+                    entry:{
+                        required:'请输入入职日期',
+                        date:'日期格式不正确',
+                    },
+                    quit:{
+                        required:'请输入离职日期',
+                        date:'日期格式不正确',
+                    },
+                    startcon:{
+                        required:'请输入合同开始日期',
+                        date:'日期格式不正确',
+                    },
+                    endcon:{
+                        required:'请输入合同结束日期',
+                        date:'日期格式不正确',
+                    },
+                    starttrial:{
+                        required:'请输入试用期开始日期',
+                        date:'日期格式不正确',
+                    },
+                    endtrial:{
+                        required:'请输入试用期结束日期',
+                        date:'日期格式不正确',
+                    }
+                },
+                submitHandler: function(form) {  //通过之后回调 
+                    var param = $("#infoform").serialize();
+                    var re = new RegExp("uid");
+                    var urlbtn;
+                    if(re.test(window.location.href)){
+                        urlbtn="{:U('User/updateUser')}";
+                    }else{
+                        urlbtn="{:U('User/addUser')}";
+                    }
+                    $.ajax({ 
+                        url : urlbtn, 
+                        type : "POST", 
+                        dataType : "json", 
+                        data: param, 
+                        success : function(result) { 
+                            if(result.status){
+                                layer.alert(result.info,{icon:6});
+                                window.location.href="{:U('index')}"
+                            }else{
+                                layer.alert(result.info,{icon:5})
+                            }
+                        } 
+                    }); 
+                } 
+            });
+
+        });
+        laydate.skin('molv');
+
+         //日期范围限制
+        var birth = {
+            elem: '#birth',
+            format: 'YYYY/MM/DD',
+            min: '1900-01-01', //最小日期
+            max: '2099-06-16 ', //最大日期
+            start:'1990-01-01',
+            istime: false,
+            istoday: false,
+            choose: function (datas) {
+            }
+        };
+        var entry = {
+            elem: '#entry',
+            format: 'YYYY/MM/DD',
+            min: '2014-01-01', //设定最小日期为当前日期
+            max: '2099-06-16 ', //最大日期
+            istime: false,
+            istoday: false,
+            choose: function (datas) {
+                quit.min = datas; //开始日选好后，重置结束日的最小日期
+                quit.start = datas //将结束日的初始值设定为开始日
+            }
+        };
+        var quit = {
+            elem: '#quit',
+            format: 'YYYY/MM/DD',
+            min: '2014-01-01',
+            max: '2099-06-16',
+            istime: false,
+            istoday: false,
+            choose: function (datas) {
+                entry.max = datas; //结束日选好后，重置开始日的最大日期
+            }
+        };
+        var startcon = {
+            elem: '#startcon',
+            format: 'YYYY/MM/DD',
+            min: '2014-01-01', //设定最小日期为当前日期
+            max: '2099-06-16 ', //最大日期
+            istime: false,
+            istoday: false,
+            choose: function (datas) {
+                endcon.min = datas; //开始日选好后，重置结束日的最小日期
+                endcon.start = datas //将结束日的初始值设定为开始日
+            }
+        };
+        var endcon = {
+            elem: '#endcon',
+            format: 'YYYY/MM/DD',
+            min: '2014-01-01',
+            max: '2099-06-16',
+            istime: false,
+            istoday: false,
+            choose: function (datas) {
+                startcon.max = datas; //结束日选好后，重置开始日的最大日期
+            }
+        };
+        var starttrial = {
+            elem: '#starttrial',
+            format: 'YYYY/MM/DD',
+            min: '2014-01-01', //设定最小日期为当前日期
+            max: '2099-06-16 ', //最大日期
+            istime: false,
+            istoday: false,
+            choose: function (datas) {
+                endtrial.min = datas; //开始日选好后，重置结束日的最小日期
+                endtrial.start = datas //将结束日的初始值设定为开始日
+            }
+        };
+        var endtrial = {
+            elem: '#endtrial',
+            format: 'YYYY/MM/DD',
+            min: '2014-01-01',
+            max: '2099-06-16',
+            istime: false,
+            istoday: false,
+            choose: function (datas) {
+                starttrial.max = datas; //结束日选好后，重置开始日的最大日期
+            }
+        };
+        laydate(birth);
+        laydate(entry);
+        laydate(quit);
+        laydate(startcon);
+        laydate(endcon);
+        laydate(starttrial);
+        laydate(endtrial);
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+<div class="right-notice">
+	<span class="right-top">
+		<h2>网站公告</h2>
+		<a class="more" href="">更多</a>
+	</span>
+	<div class="notice-content">
+		<ul>
+			<volist name="notice" id="vo">
+				<li><a href="{:U('Home/Notice/index',array('id'=>$vo['id']))}"><i>·</i>{$vo.title}</a></li>
+			</volist>
+		</ul>
+	</div>
+	<a class="notice-ad" href="">
+		<img width="270" height="90" src="__IMG__/pic2.jpg">
+	</a>
+</div>

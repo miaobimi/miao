@@ -1,0 +1,40 @@
+[ 2015-09-29T10:58:41+08:00 ] 117.24.164.187 /index.php?s=/Out/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `m_outform` [ RunTime:0.0009s ]
+SQL: INSERT INTO `m_outform` (`uid`,`signDate`,`startDate`,`expectedTime`,`outReason`,`createTime`) VALUES ('0','1444838400','1443542400','2h','dfdfsadfd','1443495521') [ RunTime:0.0964s ]
+
+[ 2015-09-29T10:58:43+08:00 ] 117.24.164.187 /index.php?s=/Out/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+SQL: SHOW COLUMNS FROM `m_outform` [ RunTime:0.0009s ]
+SQL: INSERT INTO `m_outform` (`uid`,`signDate`,`startDate`,`expectedTime`,`outReason`,`createTime`) VALUES ('0','1444838400','1443542400','2h','dfdfsadfd','1443495523') [ RunTime:0.0362s ]
+
+[ 2015-09-29T14:06:25+08:00 ] 117.24.164.187 /index.php?s=/Out/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `m_outform` [ RunTime:0.0014s ]
+SQL: INSERT INTO `m_outform` (`uid`,`signDate`,`startDate`,`expectedTime`,`outReason`,`createTime`) VALUES ('0','1443542400','1443542400','2h','dfdsf','1443506785') [ RunTime:0.0936s ]
+
+[ 2015-09-29T14:12:14+08:00 ] 117.24.164.187 /index.php?s=/Out/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `m_outform` [ RunTime:0.0009s ]
+SQL: INSERT INTO `m_outform` (`uid`,`signDate`,`startDate`,`expectedTime`,`outReason`,`createTime`) VALUES ('0','1443542400','1443542400','2h','dfdsf','1443507134') [ RunTime:0.0296s ]
+
+[ 2015-09-29T14:34:03+08:00 ] 117.24.164.187 /index.php?s=/Out/signUp.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `m_outform` [ RunTime:0.0009s ]
+SQL: INSERT INTO `m_outform` (`uid`,`signDate`,`startDate`,`expectedTime`,`outReason`,`createTime`) VALUES ('15','1443456000','1443456000','6h','sdgfsdfgdsfds','1443508443') [ RunTime:0.0456s ]
+

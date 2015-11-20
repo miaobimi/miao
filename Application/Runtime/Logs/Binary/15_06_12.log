@@ -1,0 +1,21 @@
+[ 2015-06-12T14:01:32+08:00 ] 117.24.27.68 /index.php?s=Binary
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+ERR: 无法加载控制器:Index
+
+[ 2015-06-12T14:01:37+08:00 ] 117.24.27.68 /index.php?s=/Binary
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+ERR: 无法加载控制器:Index
+
+[ 2015-06-12T14:01:43+08:00 ] 117.24.27.68 /index.php?s=/Binary/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+ERR: 无法加载控制器:Index
+

@@ -1,0 +1,115 @@
+<extend name="Public/base"/>
+	<div class="admin-left">
+		<span class="admin-nav-top"><a href="">网站首页</a>|<a href="">后台首页</a></span>
+		<div class="admin-nav">
+			<block name="menu">
+				<ul>
+					<li class="active"><a href="{:U('Article/index')}">文章列表</a></li>
+					<li><a href="{:U('Article/addArticle')}">添加文章</a></li>
+					
+				</ul>
+			</block>
+		</div>
+	</div>
+	<block name="right">
+	<div class="admin-right">
+		<span class="admin-right-top">
+			<a href="{:U('addArticle')}" class="btn btn-info btn-xm">新增</a>
+			<a class="btn btn-info btn-xm allOpen">启用</a>
+			<a class="btn btn-info btn-xm allDeny">禁用</a>
+			<a class="btn btn-info btn-xm">删除</a>
+		</span>
+		<table class="table">
+  		  
+  		  <thead>
+		  	<tr align="center"> 
+			    <td></td>
+			    <td>ID</td>
+			    <td>文章标题</td>
+			    <td>文章内容</td>
+			    <td>添加时间</td>
+			    <td>操作</td>
+			</tr>
+		  </thead>
+
+		  <tbody id="tbody" align="center">  
+			 <volist id="vo" name="list">
+				<tr> 
+				  <td><input type="checkbox"></td>
+				  <td>{$vo.id}</td>
+				  <td>{$vo.title}</td>
+				  <td>{$vo.content|htmlspecialchars|msubstr=0,30}</td>
+				  <td>{$vo.add_time|date="Y-m-d H:i:s",###}</td>
+				  <td align="center">
+				    <a class="btn btn-info btn-sm" onclick="edit({$vo.id})">修改</a>
+				    <a class="btn btn-danger btn-sm" onclick="del({$vo.id},this)">删除</a>
+				  </td>
+				</tr>
+			 </volist>
+		 </tbody>
+		<tr> 
+		 <td align="center" height="36" colspan="9">
+			<nav>
+
+			  <ul class="pagination">
+			    {$page}
+			  </ul>
+			</nav>
+		 </td>
+		</tr>
+		</table>
+	</div>
+	</block>
+	<block name="script">
+	
+	<script type="text/javascript">
+		function edit(id){
+			layer.alert('暂时不想做',0)
+		}
+
+		function del(id,obj){
+			layer.confirm('确定删除？',function(){
+				ajaxReturn("{:U('Admin/Category/del')}",{id:id},'POST',null,
+				function(data){
+					layer.closeAll();
+					if(data.status){
+						$(obj).parents('tr').remove();
+					}else{
+						layer.alert(data.info);
+					}
+				})
+			})
+		}
+		function changeStatus(id,obj){
+			var self = obj;
+			layer.confirm('确认执行该操作？',function(){
+				if($.trim($(self).text()) == '禁用'){
+					var status = 0;
+				}else{
+					var status = 1;
+				}
+
+				ajaxReturn("{:U('Admin/Category/changeCateStatus')}",{id:id,status:status},'POST',null,
+				function(data){
+					layer.closeAll();
+					if(data.status){
+						if(status){
+							$(self).parent().prev().empty().append('启用');
+							$(self).text('禁用');
+						}else{
+							$(self).parent().prev().empty().append('禁用');
+							$(self).text('启用');
+						}
+					}else{
+						layer.alert(data.info);
+					}
+				})
+			})
+		}
+		//导航高亮
+        highlight_subnav('{:U("Article/index")}');
+
+	</script>
+	</block>
+</body>
+</html>

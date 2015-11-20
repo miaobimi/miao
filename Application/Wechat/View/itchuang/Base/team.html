@@ -1,0 +1,15 @@
+<div class="recommend-team">
+	<span class="right-top">
+		<h2>推荐团队</h2>
+		<a href="{:U('Home/Team/index')}" class="more">更多</a>
+	</span>
+	<div class="recommend-team-content">
+		<ul>
+			<volist name="teamRand" id="vo">
+				<li>
+					<a class="team-logo" href="{:U('Home/Team/teamDetail',array('tid'=>$vo['id']))}"><img width="120" height="120" src="{$vo.logo}" alt="" /></a>
+				</li>
+			</volist>
+		</ul>
+	</div>
+</div>
